@@ -18,12 +18,20 @@ body {
 }
 
 .scramble-effect {
-  animation: scramble 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: scramble 0.25s cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }
 
 @keyframes scramble {
-  0% { opacity: 0; transform: translateY(10px); filter: blur(4px); }
-  100% { opacity: 1; transform: translateY(0); filter: blur(0); }
+  0% { 
+    opacity: 0; 
+    transform: translateY(20px) scale(0.95); 
+    filter: blur(8px); 
+  }
+  100% { 
+    opacity: 1; 
+    transform: translateY(0) scale(1); 
+    filter: blur(0); 
+  }
 }
 
 .coolors-row {
