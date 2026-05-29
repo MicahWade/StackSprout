@@ -47,6 +47,24 @@ let sidebarScrollTop = 0;
 const PALETTE = ['#91a6ff', '#d9480f', '#faff7f', '#ffffff', '#ff5154'];
 const appElement = document.getElementById('app')!;
 
+const PRESETS = [
+  {
+    id: 'fs-pro',
+    name: 'Full Stack',
+    techs: ['typescript', 'react', 'tailwind', 'node-js', 'express-js', 'postgresql', 'docker', 'github-actions', 'aws']
+  },
+  {
+    id: 'ai-saas',
+    name: 'AI SaaS',
+    techs: ['next-js', 'tailwind', 'python', 'fastapi', 'mongodb', 'openai-api', 'langchain', 'vercel']
+  },
+  {
+    id: 'mvp',
+    name: 'MVP',
+    techs: ['typescript', 'svelte', 'tailwind', 'supabase', 'netlify', 'github-actions']
+  }
+];
+
 function render() {
   const sidebar = document.getElementById('sidebar-controls');
   if (sidebar) sidebarScrollTop = sidebar.scrollTop;
@@ -60,9 +78,14 @@ function render() {
             <h1 class="text-2xl font-black tracking-tighter text-white">StackSprout</h1>
           </header>
           <section class="bg-slate-900/50 border border-slate-800 rounded-3xl p-6 shadow-2xl backdrop-blur-sm flex flex-col flex-1 min-h-0">
-            <div class="flex bg-slate-950 p-1 rounded-2xl border border-slate-800 shrink-0 mb-6">
-              <button id="btn-standard" class="flex-1 py-2 rounded-xl text-xs font-bold uppercase tracking-widest transition-all ${currentMode === 'Standard' ? 'bg-brand-orange text-white' : 'text-slate-500 hover:text-slate-300'}">Standard</button>
-              <button id="btn-acronym" class="flex-1 py-2 rounded-xl text-xs font-bold uppercase tracking-widest transition-all ${currentMode === 'Acronym' ? 'bg-brand-orange text-white' : 'text-slate-500 hover:text-slate-300'}">Acronym</button>
+            <div class="shrink-0 space-y-4 mb-6">
+              <div class="grid grid-cols-3 gap-2">
+                ${PRESETS.map(p => `<button data-preset="${p.id}" class="preset-btn py-2 px-1 rounded-xl bg-slate-950 border border-slate-800 text-[9px] font-black uppercase tracking-tighter text-slate-500 hover:text-brand-orange hover:border-brand-orange/50 transition-all">${p.name}</button>`).join('')}
+              </div>
+              <div class="flex bg-slate-950 p-1 rounded-2xl border border-slate-800">
+                <button id="btn-standard" class="flex-1 py-2 rounded-xl text-xs font-bold uppercase tracking-widest transition-all ${currentMode === 'Standard' ? 'bg-brand-orange text-white' : 'text-slate-500 hover:text-slate-300'}">Standard</button>
+                <button id="btn-acronym" class="flex-1 py-2 rounded-xl text-xs font-bold uppercase tracking-widest transition-all ${currentMode === 'Acronym' ? 'bg-brand-orange text-white' : 'text-slate-500 hover:text-slate-300'}">Acronym</button>
+              </div>
             </div>
             <div class="flex flex-col flex-1 min-h-0 space-y-6">
               ${currentMode === 'Acronym' ? `
@@ -189,6 +212,13 @@ function attachEventListeners() {
     const t = generatedStack.find(x => x.id === id);
     if (t) alert(`${t.name} (${t.category})\n\n${t.description}`);
   }));
+
+  document.querySelectorAll('.preset-btn').forEach(btn => btn.addEventListener('click', (e) => {
+    const id = (e.currentTarget as HTMLElement).dataset.preset;
+    const preset = PRESETS.find(p => p.id === id);
+    if (preset) applyPreset(preset);
+  }));
+
   window.removeEventListener('keydown', handleKeydown);
   window.addEventListener('keydown', handleKeydown);
 
@@ -240,6 +270,15 @@ function generateAcronymStack() {
     }
   });
   generatedStack = next;
+}
+
+function applyPreset(preset: typeof PRESETS[0]) {
+  shouldAnimate = true;
+  currentMode = 'Standard';
+  const presetTechs = TECHNOLOGIES.filter(t => preset.techs.includes(t.id));
+  generatedStack = presetTechs.map(t => ({...t}));
+  activeCategories = [...new Set(presetTechs.map(t => t.category))];
+  render();
 }
 
 render();
