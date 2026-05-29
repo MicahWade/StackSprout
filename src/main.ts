@@ -150,6 +150,7 @@ function attachEventListeners() {
     const val = (e.target as HTMLInputElement).value as Category;
     if ((e.target as HTMLInputElement).checked) { if (!activeCategories.includes(val)) activeCategories.push(val); }
     else { activeCategories = activeCategories.filter(c => c !== val); }
+    render();
   }));
   const acr = document.getElementById('acronym-input') as HTMLInputElement;
   if (acr) acr.addEventListener('input', (e) => { acronymInput = (e.target as HTMLInputElement).value.toUpperCase(); });
