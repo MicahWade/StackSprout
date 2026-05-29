@@ -11,7 +11,9 @@
       "css3",
       "node-js",
       "react",
-      "vue"
+      "vue-js",
+      "deno",
+      "bun"
     ]
   },
   {
@@ -24,9 +26,11 @@
     "compatibleWith": [
       "react",
       "angular",
-      "vue",
+      "vue-js",
       "node-js",
-      "nest-js"
+      "nest-js",
+      "deno",
+      "bun"
     ]
   },
   {
@@ -38,7 +42,7 @@
     "description": "A JavaScript library for building user interfaces.",
     "compatibleWith": [
       "typescript",
-      "tailwind",
+      "tailwind-css",
       "next-js",
       "node-js",
       "express-js"
@@ -53,7 +57,7 @@
     "description": "The progressive JavaScript framework for building web user interfaces.",
     "compatibleWith": [
       "typescript",
-      "tailwind",
+      "tailwind-css",
       "nuxt-js",
       "node-js"
     ]
@@ -81,7 +85,7 @@
     "description": "A radical new approach to building user interfaces by shifting the work to a compile step.",
     "compatibleWith": [
       "typescript",
-      "tailwind",
+      "tailwind-css",
       "sveltekit"
     ]
   },
@@ -94,7 +98,7 @@
     "description": "A declarative, efficient and flexible JavaScript library for building user interfaces.",
     "compatibleWith": [
       "typescript",
-      "tailwind",
+      "tailwind-css",
       "vite"
     ]
   },
@@ -108,7 +112,7 @@
     "compatibleWith": [
       "react",
       "typescript",
-      "tailwind",
+      "tailwind-css",
       "vercel"
     ]
   },
@@ -122,7 +126,7 @@
     "compatibleWith": [
       "vue-js",
       "typescript",
-      "tailwind",
+      "tailwind-css",
       "nitro"
     ]
   },
@@ -136,7 +140,7 @@
     "compatibleWith": [
       "svelte",
       "typescript",
-      "tailwind",
+      "tailwind-css",
       "adapter-auto"
     ]
   },
@@ -151,7 +155,7 @@
       "react",
       "vue-js",
       "svelte",
-      "tailwind"
+      "tailwind-css"
     ]
   },
   {
@@ -164,7 +168,7 @@
     "compatibleWith": [
       "react",
       "typescript",
-      "tailwind",
+      "tailwind-css",
       "node-js"
     ]
   },
@@ -382,7 +386,8 @@
       "nest-js",
       "typescript",
       "mongodb",
-      "postgresql"
+      "postgresql",
+      "javascript"
     ]
   },
   {
@@ -394,7 +399,8 @@
     "description": "A modern runtime for JavaScript and TypeScript.",
     "compatibleWith": [
       "typescript",
-      "hono"
+      "hono",
+      "javascript"
     ]
   },
   {
@@ -407,7 +413,8 @@
     "compatibleWith": [
       "typescript",
       "hono",
-      "fastify"
+      "fastify",
+      "javascript"
     ]
   },
   {
@@ -464,7 +471,7 @@
     "compatibleWith": [
       "asp-net-core",
       "microsoft-sql-server",
-      "azure"
+      "microsoft-azure"
     ]
   },
   {
@@ -649,7 +656,7 @@
     "compatibleWith": [
       "c-sharp",
       "microsoft-sql-server",
-      "azure"
+      "microsoft-azure"
     ]
   },
   {
@@ -814,7 +821,7 @@
     "compatibleWith": [
       "c-sharp",
       "asp-net-core",
-      "azure"
+      "microsoft-azure"
     ]
   },
   {
@@ -1032,7 +1039,7 @@
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/azurefunctions.svg",
     "description": "Massively scalable and secure object storage for cloud-native workloads, archives, data lakes, high-performance computing, and machine learning.",
     "compatibleWith": [
-      "azure",
+      "microsoft-azure",
       "dot-net"
     ]
   },
@@ -1440,7 +1447,7 @@
     "description": "Infrastructure as Code to deliver and manage any infrastructure.",
     "compatibleWith": [
       "aws",
-      "azure",
+      "microsoft-azure",
       "gcp",
       "kubernetes"
     ]
@@ -1481,7 +1488,7 @@
     "description": "A community-driven, open-source fork of Terraform.",
     "compatibleWith": [
       "aws",
-      "azure",
+      "microsoft-azure",
       "gcp",
       "kubernetes"
     ]
@@ -1908,7 +1915,7 @@
     "category": "Auth",
     "firstLetter": "O",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/okta.svg",
-    "description": "The World\u2019s Identity Company, providing secure identity management and single sign-on.",
+    "description": "The World’s Identity Company, providing secure identity management and single sign-on.",
     "compatibleWith": [
       "javascript",
       "react",

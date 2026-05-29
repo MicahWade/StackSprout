@@ -269,7 +269,16 @@ function generateStandardStack() {
     else {
       const techs = allowed.filter(t => t.category === cat);
       if (techs.length === 0) return;
-      next.push({...techs[Math.floor(Math.random() * techs.length)]});
+      
+      // Smart compatibility logic
+      let filtered = techs;
+      if (next.length > 0) {
+        const related = next.flatMap(n => n.compatibleWith);
+        const comp = techs.filter(t => related.includes(t.id) || t.compatibleWith.some(cid => next.some(n => n.id === cid)));
+        if (comp.length > 0) filtered = comp;
+      }
+      
+      next.push({...filtered[Math.floor(Math.random() * filtered.length)]});
     }
   });
   generatedStack = next;
@@ -290,7 +299,7 @@ function generateAcronymStack() {
         if (comp.length > 0) matches = comp;
       }
       if (matches.length > 0) next.push({...matches[Math.floor(Math.random() * matches.length)]});
-      else next.push({ id: `fake-${char}-${i}`, name: `${char}${['enon','flow','grid','byte','core','sync'][Math.floor(Math.random()*6)]}`, category: 'Backend Languages', firstLetter: char, iconUrl: `https://api.dicebear.com/7.x/initials/svg?seed=${char}&backgroundColor=d9480f`, description: 'Quantum microservice.', compatibleWith: [] });
+      else next.push({ id: `fake-${char}-${i}`, name: `${char}${['enon','flow','grid','byte','core','sync'][Math.floor(Math.random()*6)]}`, category: 'Backend Languages' as any, firstLetter: char, iconUrl: `https://api.dicebear.com/7.x/initials/svg?seed=${char}&backgroundColor=d9480f`, description: 'Quantum microservice.', compatibleWith: [] });
     }
   });
   generatedStack = next;
