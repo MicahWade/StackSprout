@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --color-slate-950: #020617;
+  --color-slate-900: #0f172a;
+  --color-slate-800: #1e293b;
+  
+  /* User Palette */
+  --color-brand-blue: #91a6ff;
+  --color-brand-orange: #d9480f;
+  --color-brand-yellow: #faff7f;
+  --color-brand-white: #ffffff;
+  --color-brand-coral: #ff5154;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 font-sans selection:bg-brand-orange selection:text-white overflow-hidden;
+}
+
+.scramble-effect {
+  animation: scramble 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes scramble {
+  0% { opacity: 0; transform: translateY(10px); filter: blur(4px); }
+  100% { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+
+.coolors-row {
+  @apply transition-all duration-300 ease-in-out border border-transparent;
+}
+
+.coolors-row:hover {
+  @apply border-slate-700 bg-slate-900/90;
+}
+
+.row-actions {
+  @apply opacity-0 transition-opacity duration-200;
+}
+
+.coolors-row:hover .row-actions {
+  @apply opacity-100;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-slate-800 rounded-full;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  @apply bg-brand-orange/50;
+}
+
+/* Center icons perfectly */
+.svg-container svg {
+  @apply w-full h-full block m-auto;
+}
