@@ -88,12 +88,12 @@ function renderStandardControls() {
         ${cats.map(cat => {
           const isActive = activeCategories.includes(cat);
           return `
-            <label class="flex items-center justify-between px-3 py-2 rounded-xl border border-slate-800 bg-slate-950/50 cursor-pointer hover:border-brand-orange/30 transition-all group">
-              <span class="text-[10px] font-bold text-slate-400 group-hover:text-slate-200">${cat}</span>
+            <label class="flex items-center justify-between px-4 py-2.5 rounded-xl border border-slate-800 bg-slate-950/50 cursor-pointer hover:border-brand-orange/30 transition-all group">
+              <span class="text-xl font-bold text-slate-400 group-hover:text-slate-200">${cat}</span>
               <div class="relative inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="${cat}" class="cat-checkbox sr-only" ${isActive ? 'checked' : ''}>
-                <div class="w-8 h-4 bg-slate-800 rounded-full transition-colors group-hover:bg-slate-700 ${isActive ? '!bg-brand-orange' : ''}">
-                  <div class="absolute top-0.5 left-0.5 w-3 h-3 bg-white rounded-full transition-transform ${isActive ? 'translate-x-4' : ''}"></div>
+                <div class="w-12 h-6 bg-slate-800 rounded-full transition-colors group-hover:bg-slate-700 ${isActive ? '!bg-brand-orange' : ''}">
+                  <div class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform ${isActive ? 'translate-x-6' : ''}"></div>
                 </div>
               </div>
             </label>
