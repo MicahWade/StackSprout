@@ -65,6 +65,7 @@ function render() {
               <button id="btn-acronym" class="flex-1 py-2 rounded-xl text-xs font-bold uppercase tracking-widest transition-all ${currentMode === 'Acronym' ? 'bg-brand-orange text-white' : 'text-slate-500 hover:text-slate-300'}">Acronym</button>
             </div>
             <div class="flex flex-col flex-1 min-h-0 space-y-6">
+              ${currentMode === 'Acronym' ? `
               <div class="shrink-0">
                 <div class="flex items-center justify-between p-4 bg-slate-950 rounded-2xl border border-slate-800">
                   <span class="text-xs font-medium text-slate-400 uppercase tracking-widest">Cohesion Mode</span>
@@ -72,7 +73,7 @@ function render() {
                     <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform ${isUsableMode ? 'translate-x-6' : 'translate-x-1'}"></span>
                   </button>
                 </div>
-              </div>
+              </div>` : ''}
               <div class="flex-1 min-h-0 overflow-hidden">
                 ${currentMode === 'Standard' ? renderStandardControls() : renderAcronymControls()}
               </div>
@@ -214,13 +215,7 @@ function generateStandardStack() {
     else {
       const techs = allowed.filter(t => t.category === cat);
       if (techs.length === 0) return;
-      let filtered = techs;
-      if (isUsableMode && next.length > 0) {
-        const last = next[next.length - 1];
-        filtered = techs.filter(t => last.compatibleWith.includes(t.id) || t.compatibleWith.includes(last.id));
-        if (filtered.length === 0) filtered = techs;
-      }
-      next.push({...filtered[Math.floor(Math.random() * filtered.length)]});
+      next.push({...techs[Math.floor(Math.random() * techs.length)]});
     }
   });
   generatedStack = next;
