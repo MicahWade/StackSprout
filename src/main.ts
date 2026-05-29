@@ -30,6 +30,7 @@ let isUsableMode = true;
 let activeCategories: Category[] = ['Frontend Framework', 'Frontend Style', 'Backend Language', 'Backend Framework', 'Database', 'Cloud', 'DevOps', 'Mobile'];
 let generatedStack: Technology[] = [];
 let acronymInput = '';
+let shouldAnimate = false;
 
 const PALETTE = ['#91a6ff', '#d9480f', '#faff7f', '#ffffff', '#ff5154'];
 const appElement = document.getElementById('app')!;
@@ -77,6 +78,7 @@ function render() {
     </div>
   `;
   attachEventListeners();
+  shouldAnimate = false;
 }
 
 function renderStandardControls() {
@@ -116,7 +118,7 @@ function renderStack() {
   return generatedStack.map((tech, i) => {
     const accentColor = PALETTE[i % PALETTE.length];
     return `
-      <div class="coolors-row min-h-[84px] flex items-center px-6 bg-slate-900/80 border border-slate-800/50 rounded-3xl relative group overflow-hidden transition-all hover:border-slate-700 shadow-xl shrink-0 scramble-effect" style="animation-delay: ${i * 100}ms">
+      <div class="coolors-row min-h-[84px] flex items-center px-6 bg-slate-900/80 border border-slate-800/50 rounded-3xl relative group overflow-hidden transition-all hover:border-slate-700 shadow-xl shrink-0 ${shouldAnimate ? 'scramble-effect' : ''}" style="animation-delay: ${i * 100}ms">
         <div class="absolute left-0 top-0 bottom-0 w-1.5" style="background-color: ${accentColor}"></div>
         <div class="flex items-center gap-6 z-10 w-full">
           <div class="w-12 h-12 p-2.5 bg-slate-950 rounded-2xl border border-slate-800 flex items-center justify-center shadow-inner group-hover:scale-110 transition-transform overflow-hidden svg-container">${tech.svgContent}</div>
@@ -172,6 +174,7 @@ function attachEventListeners() {
 }
 
 function sprout() {
+  shouldAnimate = true;
   if (currentMode === 'Standard') generateStandardStack();
   else generateAcronymStack();
   render();
