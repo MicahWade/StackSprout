@@ -2,8 +2,8 @@ import './style.css'
 import TECHNOLOGIES_DATA from './technologies.json';
 
 type Category = 
-  | 'Core Languages' | 'Frontend Frameworks' | 'Meta-Frameworks' | 'Styling' | 'Mobile Frameworks' | 'Desktop Frameworks'
-  | 'Backend Languages' | 'Backend Frameworks' | 'Task Queues'
+  | 'Frontend Frameworks' | 'Meta-Frameworks' | 'Styling' | 'Mobile Frameworks' | 'Desktop Frameworks'
+  | 'Backend Languages' | 'Runtimes' | 'Backend Frameworks' | 'Task Queues'
   | 'Relational DB' | 'NoSQL DB' | 'Time-Series DB' | 'Graph DB' | 'Vector DB' | 'Object Storage' | 'Search Engines'
   | 'API Architectures' | 'API Gateways' | 'Message Brokers'
   | 'Operating Systems' | 'Containerization' | 'Virtualization' | 'IaC' | 'CI/CD' | 'Cloud Providers' | 'PaaS / Serverless'
@@ -12,8 +12,8 @@ type Category =
   | 'ML Frameworks' | 'LLM Orchestration' | 'Model Providers';
 
 const LAYER_GROUPS: Record<string, Category[]> = {
-  'Frontend Layer': ['Core Languages', 'Frontend Frameworks', 'Meta-Frameworks', 'Styling', 'Mobile Frameworks', 'Desktop Frameworks'],
-  'Backend Layer': ['Backend Languages', 'Backend Frameworks', 'Task Queues'],
+  'Frontend Layer': ['Frontend Frameworks', 'Meta-Frameworks', 'Styling', 'Mobile Frameworks', 'Desktop Frameworks'],
+  'Backend Layer': ['Backend Languages', 'Runtimes', 'Backend Frameworks', 'Task Queues'],
   'Database Layer': ['Relational DB', 'NoSQL DB', 'Time-Series DB', 'Graph DB', 'Vector DB', 'Object Storage', 'Search Engines'],
   'API Layer': ['API Architectures', 'API Gateways', 'Message Brokers'],
   'DevOps Layer': ['Operating Systems', 'Containerization', 'Virtualization', 'IaC', 'CI/CD', 'Cloud Providers', 'PaaS / Serverless'],
@@ -75,12 +75,12 @@ const PRESETS = [
   {
     id: 'ai-saas',
     name: 'AI SaaS',
-    techs: ['next-js', 'tailwind', 'python', 'fastapi', 'mongodb', 'openai-api', 'langchain', 'vercel']
+    techs: ['typescript', 'react', 'next-js', 'tailwind', 'python', 'fastapi', 'mongodb', 'openai-api', 'langchain', 'vercel']
   },
   {
     id: 'mvp',
     name: 'MVP',
-    techs: ['typescript', 'svelte', 'tailwind', 'supabase', 'netlify', 'github-actions']
+    techs: ['typescript', 'node-js', 'express-js', 'svelte', 'tailwind', 'supabase', 'netlify', 'github-actions']
   }
 ];
 
@@ -290,7 +290,7 @@ function generateAcronymStack() {
         if (comp.length > 0) matches = comp;
       }
       if (matches.length > 0) next.push({...matches[Math.floor(Math.random() * matches.length)]});
-      else next.push({ id: `fake-${char}-${i}`, name: `${char}${['enon','flow','grid','byte','core','sync'][Math.floor(Math.random()*6)]}`, category: 'Backend Languages' as any, firstLetter: char, iconUrl: `https://api.dicebear.com/7.x/initials/svg?seed=${char}&backgroundColor=d9480f`, description: 'Quantum microservice.', compatibleWith: [] });
+      else next.push({ id: `fake-${char}-${i}`, name: `${char}${['enon','flow','grid','byte','core','sync'][Math.floor(Math.random()*6)]}`, category: 'Backend Languages', firstLetter: char, iconUrl: `https://api.dicebear.com/7.x/initials/svg?seed=${char}&backgroundColor=d9480f`, description: 'Quantum microservice.', compatibleWith: [] });
     }
   });
   generatedStack = next;
