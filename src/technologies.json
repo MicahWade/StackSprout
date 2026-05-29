@@ -4,7 +4,7 @@
     "name": "HTML5",
     "category": "Frontend",
     "firstLetter": "H",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#E34F26\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">H</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg",
     "description": "The standard markup language for documents designed to be displayed in a web browser.",
     "compatibleWith": ["css3", "javascript", "react", "vue", "angular"]
   },
@@ -13,7 +13,7 @@
     "name": "CSS3",
     "category": "Frontend",
     "firstLetter": "C",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#1572B6\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">C</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg",
     "description": "The style sheet language used for describing the presentation of a document written in HTML.",
     "compatibleWith": ["html5", "javascript", "sass", "tailwind"]
   },
@@ -22,7 +22,7 @@
     "name": "JavaScript",
     "category": "Frontend",
     "firstLetter": "J",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#F7DF1E\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"black\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">J</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg",
     "description": "High-level, often just-in-time compiled language that conforms to the ECMAScript specification.",
     "compatibleWith": ["html5", "css3", "node-js", "react", "vue"]
   },
@@ -31,7 +31,7 @@
     "name": "TypeScript",
     "category": "Frontend",
     "firstLetter": "T",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2 2h124v124H2V2z\" fill=\"#3178C6\"/><path d=\"M101.3 93.3c-2.2-1.2-4.2-2.3-6.1-3.4l-3.2-1.9c-1.1-.7-1.1-.7-.2-1.6 4.3-4.1 8.3-8.4 11.9-13 1-1.3 1-1.3-.2-2.3-11.2-8.5-22.1-17.1-33.1-25.7-.9-.7-.9-.7-1.8 0L33.4 72.8c-1.1.9-1.1.9-.1 2.2 4.1 5.4 8.6 10.4 13.5 15.1.7.7.7.7-.1 1.2-1.6 1.1-3.2 2.2-4.9 3.2l-2.7 1.6c-.6.3-.6.3 0 .7 3.9 2.1 7.8 4.2 11.7 6.4.7.4.7.4 1.2-.1 4.3-4 8.7-8 13.1-12 .6-.6.6-.6 1.1 0 4.4 3.9 8.7 7.9 13.1 11.9.5.5.5.5 1.1.1 3.4-1.8 6.8-3.7 10.2-5.5.3-.2.3-.2-.1-.4z\" fill=\"#FFF\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/typescript.svg",
     "description": "Strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
     "compatibleWith": ["react", "angular", "vue", "node-js", "nest-js"]
   },
@@ -40,7 +40,7 @@
     "name": "React",
     "category": "Frontend",
     "firstLetter": "R",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M117.5 64c0 1.8-1.5 3.3-3.4 3.3-1.8 0-3.3-1.5-3.3-3.3s1.5-3.3 3.3-3.3c1.9-.1 3.4 1.4 3.4 3.3z\" fill=\"#61DAFB\"/><path d=\"M64 48c-8.8 0-16 7.2-16 16s7.2 16 16 16 16-7.2 16-16-7.2-16-16-16zm0 24c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8z\" fill=\"#61DAFB\"/><path d=\"M125.1 57.5c-.7-2.8-2-5.4-3.7-7.7-1.7-2.3-3.9-4.3-6.4-5.9-5-3.2-11-4.9-17.1-4.9-3.8 0-7.6.6-11.2 1.8-3.6 1.2-7 2.9-10 5.1-3-2.2-6.4-3.9-10-5.1-3.6-1.2-7.4-1.8-11.2-1.8-6.1 0-12.1 1.7-17.1 4.9-2.5 1.6-4.7 3.6-6.4 5.9-1.7 2.3-3 4.9-3.7 7.7-1.3 5.3-1.3 10.9 0 16.2.7 2.8 2 5.4 3.7 7.7 1.7 2.3 3.9 4.3 6.4 5.9 5 3.2 11 4.9 17.1 4.9 3.8 0 7.6-.6 11.2-1.8 3.6-1.2 7-2.9 10-5.1 3 2.2 6.4 3.9 10 5.1 3.6 1.2 7.4 1.8 11.2 1.8 6.1 0 12.1-1.7 17.1-4.9 2.5-1.6 4.7-3.6 6.4-5.9 1.7-2.3 3-4.9 3.7-7.7 1.3-5.3 1.3-10.9 0-16.2zm-61.1 24.3c-2.4 1.7-5.1 3-7.9 3.9-2.8.9-5.7 1.3-8.6 1.3-4.6 0-9.1-1.3-13-3.7-1.9-1.2-3.5-2.7-4.8-4.5s-2.2-3.8-2.7-5.8c-1.1-4-1.1-8.2 0-12.2.5-2 1.4-4 2.7-5.8s2.9-3.3 4.8-4.5c3.9-2.4 8.4-3.7 13-3.7 2.9 0 5.8.4 8.6 1.3 2.8.9 5.5 2.2 7.9 3.9-2.3 1.7-4.4 3.7-6.1 6-1.7 2.3-3 4.9-3.7 7.7-.6 2.6-.6 5.3 0 7.9.7 2.8 2 5.4 3.7 7.7s3.8 4.3 6.1 6zm37.6 1.3c-3.9 2.4-8.4 3.7-13 3.7-2.9 0-5.8-.4-8.6-1.3-2.8-.9-5.5-2.2-7.9-3.9 2.3-1.7 4.4-3.7 6.1-6 1.7-2.3 3-4.9 3.7-7.7.6-2.6.6-5.3 0-7.9-.7-2.8-2-5.4-3.7-7.7-1.7-2.3-3.8-4.3-6.1-6 2.4-1.7 5.1-3 7.9-3.9 2.8-.9 5.7-1.3 8.6-1.3 4.6 0 9.1 1.3 13 3.7 1.9 1.2 3.5 2.7 4.8 4.5s2.2 3.8 2.7 5.8c1.1 4 1.1 8.2 0 12.2-.5 2-1.4 4-2.7 5.8-1.3 1.8-2.9 3.3-4.8 4.5z\" fill=\"#61DAFB\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
     "description": "A JavaScript library for building user interfaces.",
     "compatibleWith": ["typescript", "tailwind", "next-js", "node-js", "express-js"]
   },
@@ -49,7 +49,7 @@
     "name": "Vue.js",
     "category": "Frontend",
     "firstLetter": "V",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M78.8 10L64 35.4 49.2 10H10l54 93.7L118 10H78.8z\" fill=\"#41B883\"/><path d=\"M78.8 10L64 35.4 49.2 10H33.5l30.5 52.8L94.5 10H78.8z\" fill=\"#35495E\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vuedotjs.svg",
     "description": "The progressive JavaScript framework for building web user interfaces.",
     "compatibleWith": ["typescript", "tailwind", "nuxt-js", "node-js"]
   },
@@ -58,7 +58,7 @@
     "name": "Angular",
     "category": "Frontend",
     "firstLetter": "A",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 10L23.4 24.5l6.1 63.8L64 118l34.5-29.7 6.1-63.8L64 10z\" fill=\"#DD0031\"/><path d=\"M64 10v108l34.5-29.7 6.1-63.8L64 10z\" fill=\"#C3002F\"/><path d=\"M64 25.5L38.4 81.3h10.3l7-17.7h16.5l7 17.7h10.3L64 25.5zm8.3 47.1H55.7L64 52.8l8.3 19.8z\" fill=\"#FFF\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/angular.svg",
     "description": "A component-based framework for building scalable web applications.",
     "compatibleWith": ["typescript", "rxjs", "node-js", "sass"]
   },
@@ -67,7 +67,7 @@
     "name": "Svelte",
     "category": "Frontend",
     "firstLetter": "S",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M83.4 12c-4.6 0-9 1.8-12.3 5.1L51.8 36.4l-11-11c-6.8-6.8-17.8-6.8-24.6 0-6.8 6.8-6.8 17.8 0 24.6l19.3 19.3L16.2 88.6c-6.8 6.8-6.8 17.8 0 24.6 3.4 3.4 7.8 5.1 12.3 5.1s9-1.8 12.3-5.1l19.3-19.3 11 11c6.8 6.8 17.8 6.8 24.6 0 6.8-6.8 6.8-17.8 0-24.6L76.4 51.1l19.3-19.3c6.8-6.8 6.8-17.8 0-24.6-3.4-3.4-7.8-5.2-12.3-5.2z\" fill=\"#FF3E00\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/svelte.svg",
     "description": "A radical new approach to building user interfaces by shifting the work to a compile step.",
     "compatibleWith": ["typescript", "tailwind", "sveltekit"]
   },
@@ -76,7 +76,7 @@
     "name": "SolidJS",
     "category": "Frontend",
     "firstLetter": "S",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#2C4F7C\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">S</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/solid.svg",
     "description": "A declarative, efficient and flexible JavaScript library for building user interfaces.",
     "compatibleWith": ["typescript", "tailwind", "vite"]
   },
@@ -85,7 +85,7 @@
     "name": "Next.js",
     "category": "Frontend",
     "firstLetter": "N",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#000000\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">N</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nextdotjs.svg",
     "description": "The React Framework for the Web.",
     "compatibleWith": ["react", "typescript", "tailwind", "vercel"]
   },
@@ -94,7 +94,7 @@
     "name": "Nuxt.js",
     "category": "Frontend",
     "firstLetter": "N",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#00DC82\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">N</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nuxtdotjs.svg",
     "description": "The Intuitive Vue Framework.",
     "compatibleWith": ["vue-js", "typescript", "tailwind", "nitro"]
   },
@@ -103,7 +103,7 @@
     "name": "SvelteKit",
     "category": "Frontend",
     "firstLetter": "S",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#FF3E00\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">S</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/svelte.svg",
     "description": "The fastest way to build Svelte apps.",
     "compatibleWith": ["svelte", "typescript", "tailwind", "adapter-auto"]
   },
@@ -112,7 +112,7 @@
     "name": "Astro",
     "category": "Frontend",
     "firstLetter": "A",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#FF5D01\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">A</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/astro.svg",
     "description": "The web framework for content-driven websites.",
     "compatibleWith": ["react", "vue-js", "svelte", "tailwind"]
   },
@@ -121,7 +121,7 @@
     "name": "Remix",
     "category": "Frontend",
     "firstLetter": "R",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#121212\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">R</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/remix.svg",
     "description": "A full stack web framework that lets you focus on the user interface.",
     "compatibleWith": ["react", "typescript", "tailwind", "node-js"]
   },
@@ -130,7 +130,7 @@
     "name": "Tailwind CSS",
     "category": "Frontend",
     "firstLetter": "T",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 29.7c-13.3 0-20 6.7-20 20s6.7 20 20 20 20-6.7 20-20-6.7-20-20-20z\" fill=\"#06B6D4\"/><path d=\"M64 69.7c-13.3 0-20 6.7-20 20s6.7 20 20 20 20-6.7 20-20-6.7-20-20-20z\" fill=\"#06B6D4\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tailwindcss.svg",
     "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
     "compatibleWith": ["react", "vue-js", "svelte", "next-js", "nuxt-js"]
   },
@@ -139,7 +139,7 @@
     "name": "Bootstrap",
     "category": "Frontend",
     "firstLetter": "B",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#7952B3\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">B</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/bootstrap.svg",
     "description": "Powerful, extensible, and feature-packed frontend toolkit.",
     "compatibleWith": ["html5", "css3", "javascript", "react-bootstrap"]
   },
@@ -148,7 +148,7 @@
     "name": "Sass",
     "category": "Frontend",
     "firstLetter": "S",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 10c-30 0-54 24-54 54s24 54 54 54 54-24 54-54-24-54-54-54z\" fill=\"#CF649A\"/><path d=\"M64 30c-18.8 0-34 15.2-34 34s15.2 34 34 34 34-15.2 34-34-15.2-34-34-34z\" fill=\"#FFF\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/sass.svg",
     "description": "The most mature, stable, and powerful professional grade CSS extension language in the world.",
     "compatibleWith": ["css3", "react", "angular", "vue-js"]
   },
@@ -157,7 +157,7 @@
     "name": "Styled Components",
     "category": "Frontend",
     "firstLetter": "S",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#DB7093\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">S</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/styledcomponents.svg",
     "description": "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps.",
     "compatibleWith": ["react", "typescript"]
   },
@@ -166,7 +166,7 @@
     "name": "CSS Modules",
     "category": "Frontend",
     "firstLetter": "C",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#222222\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">C</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/cssmodules.svg",
     "description": "A CSS file in which all class names and animation names are scoped locally by default.",
     "compatibleWith": ["react", "vue-js", "webpack"]
   },
@@ -175,7 +175,7 @@
     "name": "React Native",
     "category": "Frontend",
     "firstLetter": "R",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#61DAFB\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"black\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">R</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
     "description": "Create native apps for Android, iOS, and more using React.",
     "compatibleWith": ["react", "typescript", "expo"]
   },
@@ -184,7 +184,7 @@
     "name": "Flutter",
     "category": "Frontend",
     "firstLetter": "F",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M74.8 7.3L37.7 44.4l25.1 25.1 37.1-37.1H74.8z\" fill=\"#40D1FB\"/><path d=\"M62.8 69.5l-12.6 12.6 25.1 25.1h25.1L75.3 82.1l-12.5-12.6z\" fill=\"#03589B\"/><path d=\"M50.2 82.1L25.1 107.2l12.6 12.6 37.6-37.7H50.2z\" fill=\"#40D1FB\"/><path d=\"M62.8 69.5L50.2 82.1h25.1l12.6-12.6H62.8z\" fill=\"#16B9FD\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/flutter.svg",
     "description": "Build apps for any screen from a single codebase.",
     "compatibleWith": ["dart", "firebase", "sqlite"]
   },
@@ -193,7 +193,7 @@
     "name": "Swift (iOS)",
     "category": "Frontend",
     "firstLetter": "S",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#FA7343\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">S</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/swift.svg",
     "description": "Powerful and intuitive programming language for iOS, iPadOS, macOS, tvOS, and watchOS.",
     "compatibleWith": ["xcode", "swiftui", "core-data"]
   },
@@ -202,7 +202,7 @@
     "name": "Kotlin/Java (Android)",
     "category": "Frontend",
     "firstLetter": "K",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#3DDC84\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">K</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/kotlin.svg",
     "description": "The modern programming language that makes developers happier for Android development.",
     "compatibleWith": ["android-studio", "jetpack-compose", "firebase"]
   },
@@ -211,7 +211,7 @@
     "name": "MAUI",
     "category": "Frontend",
     "firstLetter": "M",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#512BD4\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">M</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dotnet.svg",
     "description": ".NET Multi-platform App UI is a cross-platform framework for creating native mobile and desktop apps with C# and XAML.",
     "compatibleWith": ["c-sharp", "dot-net", "visual-studio"]
   },
@@ -220,7 +220,7 @@
     "name": "Electron",
     "category": "Frontend",
     "firstLetter": "E",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#2B2E3A\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#9FEAF9\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">E</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/electron.svg",
     "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS.",
     "compatibleWith": ["javascript", "node-js", "react", "vue-js"]
   },
@@ -229,7 +229,7 @@
     "name": "Tauri",
     "category": "Frontend",
     "firstLetter": "T",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#24C1E0\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">T</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tauri.svg",
     "description": "Build an optimized, secure, and frontend-independent application for multi-platform deployment.",
     "compatibleWith": ["rust", "javascript", "react", "vue-js"]
   },
@@ -238,16 +238,25 @@
     "name": "NW.js",
     "category": "Frontend",
     "firstLetter": "N",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#353535\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">N</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nwjs.svg",
     "description": "Call all Node.js modules directly from DOM and enable a new way of writing applications with all Web technologies.",
     "compatibleWith": ["javascript", "node-js"]
+  },
+  {
+    "id": "tanstack-query",
+    "name": "TanStack Query",
+    "category": "Frontend",
+    "firstLetter": "T",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tanstack.svg",
+    "description": "Powerful asynchronous state management for TS/JS, React, Solid, Vue and Svelte.",
+    "compatibleWith": ["react", "vue-js", "svelte", "typescript"]
   },
   {
     "id": "python",
     "name": "Python",
     "category": "Backend",
     "firstLetter": "P",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64.2 2C34.3 2 36.4 14.9 36.4 14.9v13h28.4v4H25.3S2 29.5 2 59.3c0 29.8 21.8 28.7 21.8 28.7h13v-18.3c0-21.7 17.6-21.7 17.6-21.7H83c21.8 0 21.8-19.1 21.8-19.1V14.9S104.8 2 64.2 2z\" fill=\"#3776AB\"/><path d=\"M63.8 126c29.8 0 27.7-12.9 27.7-12.9v-13H63.1v-4h39.5s23.3 2.4 23.3-27.4c0-29.8-21.8-28.7-21.8-28.7h-13v18.3c0 21.7-17.6 21.7-17.6 21.7H45c-21.8 0-21.8 19.1-21.8 19.1V113.1s0 12.9 40.6 12.9z\" fill=\"#FFD43B\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/python.svg",
     "description": "Interpreted, high-level and general-purpose programming language.",
     "compatibleWith": ["django", "fastapi", "flask", "pytorch", "tensorflow"]
   },
@@ -256,7 +265,7 @@
     "name": "Node.js",
     "category": "Backend",
     "firstLetter": "N",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#339933\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">N</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nodedotjs.svg",
     "description": "Asynchronous event-driven JavaScript runtime designed to build scalable network applications.",
     "compatibleWith": ["express-js", "nest-js", "typescript", "mongodb", "postgresql"]
   },
@@ -265,7 +274,7 @@
     "name": "Deno",
     "category": "Backend",
     "firstLetter": "D",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#000000\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">D</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/deno.svg",
     "description": "A modern runtime for JavaScript and TypeScript.",
     "compatibleWith": ["typescript", "hono"]
   },
@@ -274,7 +283,7 @@
     "name": "Bun",
     "category": "Backend",
     "firstLetter": "B",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#fbf0df\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"black\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">B</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/bun.svg",
     "description": "A fast all-in-one JavaScript runtime.",
     "compatibleWith": ["typescript", "hono", "fastify"]
   },
@@ -283,7 +292,7 @@
     "name": "Go",
     "category": "Backend",
     "firstLetter": "G",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 2C34.3 2 10 26.3 10 56s24.3 54 54 54 54-24.3 54-54S93.7 2 64 2zm0 100c-25.4 0-46-20.6-46-46s20.6-46 46-46 46 20.6 46 46-20.6 46-46 46z\" fill=\"#00ADD8\"/><circle cx=\"64\" cy=\"56\" r=\"20\" fill=\"#00ADD8\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/go.svg",
     "description": "Statically typed, compiled programming language designed at Google.",
     "compatibleWith": ["gin", "fiber", "echo", "docker", "kubernetes"]
   },
@@ -292,7 +301,7 @@
     "name": "Rust",
     "category": "Backend",
     "firstLetter": "R",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"64\" cy=\"64\" r=\"50\" fill=\"#000\"/><path d=\"M64 24c-22.1 0-40 17.9-40 40s17.9 40 40 40 40-17.9 40-40-17.9-40-40-40zm0 72c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z\" fill=\"#FFF\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/rust.svg",
     "description": "A language empowering everyone to build reliable and efficient software.",
     "compatibleWith": ["axum", "actix-web", "postgresql", "docker", "tauri"]
   },
@@ -301,7 +310,7 @@
     "name": "Java",
     "category": "Backend",
     "firstLetter": "J",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#007396\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">J</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/openjdk.svg",
     "description": "Class-based, object-oriented programming language.",
     "compatibleWith": ["spring-boot", "quarkus", "postgresql", "mysql"]
   },
@@ -310,7 +319,7 @@
     "name": "C#",
     "category": "Backend",
     "firstLetter": "C",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#239120\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">C#</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/csharp.svg",
     "description": "A modern, object-oriented, and type-safe programming language.",
     "compatibleWith": ["asp-net-core", "microsoft-sql-server", "azure"]
   },
@@ -319,7 +328,7 @@
     "name": "PHP",
     "category": "Backend",
     "firstLetter": "P",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#777BB4\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">P</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/php.svg",
     "description": "A popular general-purpose scripting language that is especially suited to web development.",
     "compatibleWith": ["laravel", "symfony", "mysql", "postgresql"]
   },
@@ -328,7 +337,7 @@
     "name": "Ruby",
     "category": "Backend",
     "firstLetter": "R",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#CC342D\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">R</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/ruby.svg",
     "description": "A dynamic, open source programming language with a focus on simplicity and productivity.",
     "compatibleWith": ["ruby-on-rails", "sidekiq", "postgresql"]
   },
@@ -337,7 +346,7 @@
     "name": "C++",
     "category": "Backend",
     "firstLetter": "C",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#00599C\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">C++</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/cplusplus.svg",
     "description": "A high-performance programming language used for systems programming, game development, and more.",
     "compatibleWith": ["qt", "cmake"]
   },
@@ -346,7 +355,7 @@
     "name": "FastAPI",
     "category": "Backend",
     "firstLetter": "F",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 10L14 35v58l50 25 50-25V35L64 10z\" fill=\"#05998B\"/><path d=\"M64 30v68\" stroke=\"#FFF\" stroke-width=\"8\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/fastapi.svg",
     "description": "Modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.",
     "compatibleWith": ["python", "postgresql", "pydantic", "docker"]
   },
@@ -355,7 +364,7 @@
     "name": "Django",
     "category": "Backend",
     "firstLetter": "D",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10 10h108v108H10V10z\" fill=\"#092E20\"/><text x=\"30\" y=\"80\" fill=\"#FFF\" font-family=\"serif\" font-weight=\"bold\" font-size=\"60\">Dj</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/django.svg",
     "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
     "compatibleWith": ["python", "postgresql", "celery", "redis"]
   },
@@ -364,7 +373,7 @@
     "name": "Flask",
     "category": "Backend",
     "firstLetter": "F",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#000000\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">F</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/flask.svg",
     "description": "A lightweight WSGI web application framework in Python.",
     "compatibleWith": ["python", "sqlalchemy", "postgresql"]
   },
@@ -373,7 +382,7 @@
     "name": "Express.js",
     "category": "Backend",
     "firstLetter": "E",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 12h104v104H12V12z\" fill=\"#333\"/><text x=\"35\" y=\"80\" fill=\"#FFF\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"40\">Ex</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/express.svg",
     "description": "Fast, unopinionated, minimalist web framework for Node.js.",
     "compatibleWith": ["node-js", "javascript", "typescript", "mongodb", "postgresql"]
   },
@@ -382,7 +391,7 @@
     "name": "NestJS",
     "category": "Backend",
     "firstLetter": "N",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 10L14 35v58l50 25 50-25V35L64 10z\" fill=\"#E0234E\"/><path d=\"M40 80l24-40 24 40H40z\" fill=\"#FFF\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nestjs.svg",
     "description": "A progressive Node.js framework for building efficient, reliable and scalable server-side applications.",
     "compatibleWith": ["typescript", "node-js", "postgresql", "graphql", "angular"]
   },
@@ -391,7 +400,7 @@
     "name": "Fastify",
     "category": "Backend",
     "firstLetter": "F",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#202020\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">F</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/fastify.svg",
     "description": "Fast and low overhead web framework, for Node.js.",
     "compatibleWith": ["node-js", "typescript"]
   },
@@ -400,7 +409,7 @@
     "name": "Hono",
     "category": "Backend",
     "firstLetter": "H",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#E36002\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">H</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/hono.svg",
     "description": "Ultrafast web framework for the Edges.",
     "compatibleWith": ["cloudflare-workers", "deno", "bun", "node-js"]
   },
@@ -409,7 +418,7 @@
     "name": "Gin",
     "category": "Backend",
     "firstLetter": "G",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#00838F\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">G</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gin.svg",
     "description": "A HTTP web framework written in Go.",
     "compatibleWith": ["go", "postgresql"]
   },
@@ -418,7 +427,7 @@
     "name": "Fiber",
     "category": "Backend",
     "firstLetter": "F",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#00ADD8\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">F</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gofiber.svg",
     "description": "An Express inspired web framework built on top of Fasthttp.",
     "compatibleWith": ["go", "postgresql"]
   },
@@ -427,7 +436,7 @@
     "name": "Echo",
     "category": "Backend",
     "firstLetter": "E",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#00A2FF\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">E</text></svg>",
+    "iconUrl": "https://www.vectorlogo.zone/logos/echo/echo-icon.svg",
     "description": "High performance, extensible, minimalist Go web framework.",
     "compatibleWith": ["go", "postgresql"]
   },
@@ -436,7 +445,7 @@
     "name": "ASP.NET Core",
     "category": "Backend",
     "firstLetter": "A",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#512BD4\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">A</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dotnet.svg",
     "description": "Cross-platform, high-performance, open-source framework for building modern, cloud-enabled, Internet-connected apps.",
     "compatibleWith": ["c-sharp", "microsoft-sql-server", "azure"]
   },
@@ -445,7 +454,7 @@
     "name": "Spring Boot",
     "category": "Backend",
     "firstLetter": "S",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#6DB33F\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">S</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/springboot.svg",
     "description": "Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications.",
     "compatibleWith": ["java", "postgresql", "mysql"]
   },
@@ -454,7 +463,7 @@
     "name": "Quarkus",
     "category": "Backend",
     "firstLetter": "Q",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#4695EB\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">Q</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/quarkus.svg",
     "description": "A Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM.",
     "compatibleWith": ["java", "kubernetes", "postgresql"]
   },
@@ -463,7 +472,7 @@
     "name": "Laravel",
     "category": "Backend",
     "firstLetter": "L",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#FF2D20\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">L</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/laravel.svg",
     "description": "A PHP framework for web artisans.",
     "compatibleWith": ["php", "mysql", "postgresql", "redis"]
   },
@@ -472,7 +481,7 @@
     "name": "Symfony",
     "category": "Backend",
     "firstLetter": "S",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#000000\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">S</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/symfony.svg",
     "description": "A set of reusable PHP components and a PHP framework for web projects.",
     "compatibleWith": ["php", "postgresql", "mysql"]
   },
@@ -481,7 +490,7 @@
     "name": "Ruby on Rails",
     "category": "Backend",
     "firstLetter": "R",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#D30001\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">R</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/rubyonrails.svg",
     "description": "A full-stack web framework optimized for programmer happiness and sustainable productivity.",
     "compatibleWith": ["ruby", "postgresql", "sidekiq", "redis"]
   },
@@ -490,7 +499,7 @@
     "name": "Celery",
     "category": "Backend",
     "firstLetter": "C",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#376C3E\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">C</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/celery.svg",
     "description": "Distributed Task Queue.",
     "compatibleWith": ["python", "django", "flask", "redis", "rabbitmq"]
   },
@@ -499,7 +508,7 @@
     "name": "BullMQ",
     "category": "Backend",
     "firstLetter": "B",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#303030\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#FF3E00\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">B</text></svg>",
+    "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=BullMQ&backgroundColor=d9480f",
     "description": "The most advanced, fastest and most reliable message queue for Node.js.",
     "compatibleWith": ["node-js", "typescript", "redis"]
   },
@@ -508,7 +517,7 @@
     "name": "Sidekiq",
     "category": "Backend",
     "firstLetter": "S",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#595159\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">S</text></svg>",
+    "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Sidekiq&backgroundColor=d9480f",
     "description": "Simple, efficient background processing for Ruby.",
     "compatibleWith": ["ruby", "ruby-on-rails", "redis"]
   },
@@ -517,7 +526,7 @@
     "name": "PostgreSQL",
     "category": "Database",
     "firstLetter": "P",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 12.5L23.6 35.8v46.5L64 105.7l40.4-23.4V35.8L64 12.5z\" fill=\"#336791\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/postgresql.svg",
     "description": "A powerful, open source object-relational database system.",
     "compatibleWith": ["node-js", "python", "go", "rust", "django", "fastapi"]
   },
@@ -526,7 +535,7 @@
     "name": "MySQL",
     "category": "Database",
     "firstLetter": "M",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#4479A1\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">M</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mysql.svg",
     "description": "World's most popular open source database.",
     "compatibleWith": ["php", "laravel", "node-js", "python"]
   },
@@ -535,7 +544,7 @@
     "name": "SQLite",
     "category": "Database",
     "firstLetter": "S",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#003B57\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">S</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/sqlite.svg",
     "description": "C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.",
     "compatibleWith": ["python", "node-js", "flutter", "react-native"]
   },
@@ -544,7 +553,7 @@
     "name": "Microsoft SQL Server",
     "category": "Database",
     "firstLetter": "M",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#A91D22\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">M</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftsqlserver.svg",
     "description": "A relational database management system developed by Microsoft.",
     "compatibleWith": ["c-sharp", "asp-net-core", "azure"]
   },
@@ -553,7 +562,7 @@
     "name": "Oracle",
     "category": "Database",
     "firstLetter": "O",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#F80000\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">O</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/oracle.svg",
     "description": "A multi-model database management system produced and marketed by Oracle Corporation.",
     "compatibleWith": ["java", "spring-boot"]
   },
@@ -562,7 +571,7 @@
     "name": "MongoDB",
     "category": "Database",
     "firstLetter": "M",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M88.2 59.4c0 19.3-15.7 35-35 35s-35-15.7-35-35 15.7-35 35-35 35 15.7 35 35z\" fill=\"#47A248\"/><path d=\"M53.2 24.4v70c19.3 0 35-15.7 35-35s-15.7-35-35-35z\" fill=\"#3F9142\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mongodb.svg",
     "description": "The database for modern applications.",
     "compatibleWith": ["node-js", "express-js", "javascript", "typescript"]
   },
@@ -571,7 +580,7 @@
     "name": "Redis",
     "category": "Database",
     "firstLetter": "R",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#D82C20\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">R</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/redis.svg",
     "description": "The open source, in-memory data store used by millions of developers as a database, cache, streaming engine, and message broker.",
     "compatibleWith": ["node-js", "python", "ruby-on-rails", "laravel"]
   },
@@ -580,7 +589,7 @@
     "name": "CouchDB",
     "category": "Database",
     "firstLetter": "C",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#E42528\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">C</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/apachecouchdb.svg",
     "description": "Seamless multi-master sync, that scales from Big Data to Mobile, with an Intuitive HTTP/JSON API and designed for Reliability.",
     "compatibleWith": ["javascript", "pouchdb"]
   },
@@ -589,7 +598,7 @@
     "name": "DynamoDB",
     "category": "Database",
     "firstLetter": "D",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#4053D6\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">D</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazondynamodb.svg",
     "description": "Fast, flexible NoSQL database service for single-digit millisecond performance at any scale.",
     "compatibleWith": ["aws", "lambda", "node-js", "python"]
   },
@@ -598,7 +607,7 @@
     "name": "InfluxDB",
     "category": "Database",
     "firstLetter": "I",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#22ADF6\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">I</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/influxdb.svg",
     "description": "The leading time series database.",
     "compatibleWith": ["grafana", "telegraf", "prometheus"]
   },
@@ -607,7 +616,7 @@
     "name": "TimescaleDB",
     "category": "Database",
     "firstLetter": "T",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#FDB815\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">T</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/timescaledb.svg",
     "description": "Open-source time-series database optimized for fast ingest and complex queries, based on PostgreSQL.",
     "compatibleWith": ["postgresql", "grafana"]
   },
@@ -616,7 +625,7 @@
     "name": "Neo4j",
     "category": "Database",
     "firstLetter": "N",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#008CC1\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">N</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/neo4j.svg",
     "description": "The world's leading graph database.",
     "compatibleWith": ["cypher", "node-js", "python"]
   },
@@ -625,7 +634,7 @@
     "name": "ArangoDB",
     "category": "Database",
     "firstLetter": "A",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#DDE072\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#333333\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">A</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/arangodb.svg",
     "description": "The native multi-model database.",
     "compatibleWith": ["javascript", "python", "docker"]
   },
@@ -634,7 +643,7 @@
     "name": "Pinecone",
     "category": "Database",
     "firstLetter": "P",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#222222\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#49B48F\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">P</text></svg>",
+    "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Pinecone&backgroundColor=d9480f",
     "description": "The vector database for binary vector search at any scale.",
     "compatibleWith": ["python", "openai-api", "langchain"]
   },
@@ -643,7 +652,7 @@
     "name": "Milvus",
     "category": "Database",
     "firstLetter": "M",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#00AEEF\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">M</text></svg>",
+    "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Milvus&backgroundColor=d9480f",
     "description": "Vector database built for scalable similarity search.",
     "compatibleWith": ["python", "pytorch", "tensorflow"]
   },
@@ -652,7 +661,7 @@
     "name": "Qdrant",
     "category": "Database",
     "firstLetter": "Q",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#FF4081\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">Q</text></svg>",
+    "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Qdrant&backgroundColor=d9480f",
     "description": "Vector Similarity Search Engine with extended filtering support.",
     "compatibleWith": ["rust", "python", "grpc"]
   },
@@ -661,7 +670,7 @@
     "name": "Weaviate",
     "category": "Database",
     "firstLetter": "W",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#1C1C1C\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#00E5FF\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">W</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/weaviate.svg",
     "description": "An open source vector database that allows you to store data objects and vector embeddings from your favorite ML-models.",
     "compatibleWith": ["python", "graphql", "docker"]
   },
@@ -670,7 +679,7 @@
     "name": "AWS S3",
     "category": "Database",
     "firstLetter": "A",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#569A31\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">A</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazons3.svg",
     "description": "Object storage built to retrieve any amount of data from anywhere.",
     "compatibleWith": ["aws", "iam", "lambda"]
   },
@@ -679,7 +688,7 @@
     "name": "MinIO",
     "category": "Database",
     "firstLetter": "M",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#C72E49\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">M</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/minio.svg",
     "description": "High Performance Object Storage for AI.",
     "compatibleWith": ["docker", "kubernetes", "s3-api"]
   },
@@ -688,7 +697,7 @@
     "name": "Google Cloud Storage",
     "category": "Database",
     "firstLetter": "G",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#4285F4\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">G</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/googlecloud.svg",
     "description": "Scalable, resilient, and high-performance object storage for your applications.",
     "compatibleWith": ["gcp", "firebase"]
   },
@@ -697,7 +706,7 @@
     "name": "Azure Blob Storage",
     "category": "Database",
     "firstLetter": "A",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#0078D4\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">A</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/azurefunctions.svg",
     "description": "Massively scalable and secure object storage for cloud-native workloads, archives, data lakes, high-performance computing, and machine learning.",
     "compatibleWith": ["azure", "dot-net"]
   },
@@ -706,7 +715,7 @@
     "name": "Elasticsearch",
     "category": "Database",
     "firstLetter": "E",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#005571\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#00BFB3\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">E</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/elasticsearch.svg",
     "description": "A distributed, RESTful search and analytics engine.",
     "compatibleWith": ["kibana", "logstash", "beats"]
   },
@@ -715,7 +724,7 @@
     "name": "OpenSearch",
     "category": "Database",
     "firstLetter": "O",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#005EB8\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">O</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/opensearch.svg",
     "description": "Open source search, analytics, and visualization suite.",
     "compatibleWith": ["elasticsearch", "aws"]
   },
@@ -724,7 +733,7 @@
     "name": "Meilisearch",
     "category": "Database",
     "firstLetter": "M",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#FF5CAA\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">M</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/meilisearch.svg",
     "description": "A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow.",
     "compatibleWith": ["javascript", "rust", "python"]
   },
@@ -733,7 +742,7 @@
     "name": "REST",
     "category": "API & Integration",
     "firstLetter": "R",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#666666\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">R</text></svg>",
+    "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=REST&backgroundColor=d9480f",
     "description": "Representational State Transfer (REST) is an architectural style for providing standards between computer systems on the web.",
     "compatibleWith": ["javascript", "python", "java", "go"]
   },
@@ -742,7 +751,7 @@
     "name": "GraphQL",
     "category": "API & Integration",
     "firstLetter": "G",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#E10098\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">G</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/graphql.svg",
     "description": "A query language for APIs and a runtime for fulfilling those queries with your existing data.",
     "compatibleWith": ["apollo", "react", "node-js", "typescript"]
   },
@@ -751,7 +760,7 @@
     "name": "gRPC",
     "category": "API & Integration",
     "firstLetter": "G",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#244C5A\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#36CE9E\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">G</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/grpc.svg",
     "description": "A high-performance, open source universal RPC framework.",
     "compatibleWith": ["protocol-buffers", "go", "java", "rust"]
   },
@@ -760,7 +769,7 @@
     "name": "WebSockets",
     "category": "API & Integration",
     "firstLetter": "W",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#FF9800\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">W</text></svg>",
+    "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=WS&backgroundColor=d9480f",
     "description": "A computer communications protocol, providing full-duplex communication channels over a single TCP connection.",
     "compatibleWith": ["socket-io", "node-js", "react"]
   },
@@ -769,7 +778,7 @@
     "name": "Webhooks",
     "category": "API & Integration",
     "firstLetter": "W",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#4CAF50\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">W</text></svg>",
+    "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=WH&backgroundColor=d9480f",
     "description": "Custom HTTP callbacks that are triggered by some event.",
     "compatibleWith": ["rest", "node-js", "stripe", "github"]
   },
@@ -778,7 +787,7 @@
     "name": "Kong",
     "category": "API & Integration",
     "firstLetter": "K",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#003459\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">K</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/kong.svg",
     "description": "The World's Most Popular API Gateway.",
     "compatibleWith": ["kubernetes", "docker", "lua"]
   },
@@ -787,7 +796,7 @@
     "name": "Traefik",
     "category": "API & Integration",
     "firstLetter": "T",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#24A1C1\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">T</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/traefik.svg",
     "description": "The Cloud Native Application Proxy.",
     "compatibleWith": ["docker", "kubernetes", "go"]
   },
@@ -796,7 +805,7 @@
     "name": "AWS API Gateway",
     "category": "API & Integration",
     "firstLetter": "A",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#A166FF\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">A</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazonapigateway.svg",
     "description": "Fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.",
     "compatibleWith": ["aws", "lambda", "cognito"]
   },
@@ -805,7 +814,7 @@
     "name": "Apigee",
     "category": "API & Integration",
     "firstLetter": "A",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#E53935\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">A</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/googlecloud.svg",
     "description": "Full lifecycle API management platform from Google Cloud.",
     "compatibleWith": ["gcp", "rest"]
   },
@@ -814,7 +823,7 @@
     "name": "Apache Kafka",
     "category": "API & Integration",
     "firstLetter": "A",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#231F20\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">A</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/apachekafka.svg",
     "description": "Distributed event store and stream-processing platform.",
     "compatibleWith": ["java", "scala", "zookeeper"]
   },
@@ -823,7 +832,7 @@
     "name": "RabbitMQ",
     "category": "API & Integration",
     "firstLetter": "R",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#F60\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">R</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/rabbitmq.svg",
     "description": "The most widely deployed open source message broker.",
     "compatibleWith": ["amqp", "python", "node-js", "erlang"]
   },
@@ -832,7 +841,7 @@
     "name": "NATS",
     "category": "API & Integration",
     "firstLetter": "N",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#27AAE1\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">N</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nats.svg",
     "description": "Connective technology for adaptive edge and cloud-native applications.",
     "compatibleWith": ["go", "docker", "kubernetes"]
   },
@@ -841,16 +850,25 @@
     "name": "AWS SQS/SNS",
     "category": "API & Integration",
     "firstLetter": "A",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#FF4F8B\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">A</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazonsqs.svg",
     "description": "Fully managed message queuing and pub/sub messaging services.",
     "compatibleWith": ["aws", "lambda", "node-js", "python"]
+  },
+  {
+    "id": "trpc",
+    "name": "tRPC",
+    "category": "API & Integration",
+    "firstLetter": "T",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/trpc.svg",
+    "description": "Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
+    "compatibleWith": ["typescript", "react", "next-js", "node-js"]
   },
   {
     "id": "linux",
     "name": "Linux",
     "category": "DevOps",
     "firstLetter": "L",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#333333\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#FCC624\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">L</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linux.svg",
     "description": "An open-source Unix-like operating system based on the Linux kernel.",
     "compatibleWith": ["bash", "docker", "kubernetes"]
   },
@@ -859,7 +877,7 @@
     "name": "Ubuntu",
     "category": "DevOps",
     "firstLetter": "U",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#E95420\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">U</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/ubuntu.svg",
     "description": "Open source desktop operating system based on Debian.",
     "compatibleWith": ["linux", "apt", "bash"]
   },
@@ -868,7 +886,7 @@
     "name": "Debian",
     "category": "DevOps",
     "firstLetter": "D",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#A80030\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">D</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/debian.svg",
     "description": "A stable and secure Linux-based operating system.",
     "compatibleWith": ["linux", "apt", "docker"]
   },
@@ -877,7 +895,7 @@
     "name": "Fedora",
     "category": "DevOps",
     "firstLetter": "F",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#294172\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">F</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/fedora.svg",
     "description": "Innovative, free, and open source platform for hardware, clouds, and containers.",
     "compatibleWith": ["linux", "dnf", "red-hat"]
   },
@@ -886,7 +904,7 @@
     "name": "Rocky Linux",
     "category": "DevOps",
     "firstLetter": "R",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#10B981\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">R</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/rockylinux.svg",
     "description": "A community-driven enterprise operating system designed to be 100% bug-for-bug compatible with RHEL.",
     "compatibleWith": ["linux", "red-hat", "docker"]
   },
@@ -895,7 +913,7 @@
     "name": "Windows Server",
     "category": "DevOps",
     "firstLetter": "W",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#0078D4\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">W</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/windows.svg",
     "description": "The operating system that bridges on-premises environments with Azure.",
     "compatibleWith": ["powershell", "active-directory", "iis"]
   },
@@ -904,7 +922,7 @@
     "name": "Docker",
     "category": "DevOps",
     "firstLetter": "D",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M121.2 55.4c-2.3-1.6-4.9-2.7-7.7-3.1 0-8.2-6.7-14.9-14.9-14.9-2.3 0-4.5.5-6.5 1.4-2.8-5.3-8.3-8.9-14.7-8.9-6.4 0-11.9 3.6-14.7 8.9-2-.9-4.2-1.4-6.5-1.4-8.2 0-14.9 6.7-14.9 14.9-2.8.4-5.4 1.5-7.7 3.1-2.2 1.5-3.6 4-3.6 6.7v32.2c0 8.2 6.7 14.9 14.9 14.9h65.8c8.2 0 14.9-6.7 14.9-14.9V62.1c0-2.7-1.4-5.2-3.6-6.7z\" fill=\"#2496ED\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/docker.svg",
     "description": "Deliver software in packages called containers.",
     "compatibleWith": ["kubernetes", "docker-swarm", "linux", "go"]
   },
@@ -913,7 +931,7 @@
     "name": "Kubernetes",
     "category": "DevOps",
     "firstLetter": "K",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 2L10 23.3v63.4L64 118l54-31.3V23.3L64 2z\" fill=\"#326CE5\"/><path d=\"M64 22l34.5 19.9v39.8L64 101.6 29.5 81.7V41.9L64 22z\" fill=\"#FFF\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/kubernetes.svg",
     "description": "Production-grade container orchestration.",
     "compatibleWith": ["docker", "helm", "terraform", "linux"]
   },
@@ -922,7 +940,7 @@
     "name": "Docker Swarm",
     "category": "DevOps",
     "firstLetter": "D",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#2496ED\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">D</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/docker.svg",
     "description": "Native clustering for Docker.",
     "compatibleWith": ["docker", "linux"]
   },
@@ -931,7 +949,7 @@
     "name": "Nomad",
     "category": "DevOps",
     "firstLetter": "N",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#00CA92\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">N</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nomad.svg",
     "description": "A flexible scheduler and workload orchestrator.",
     "compatibleWith": ["consul", "vault", "docker"]
   },
@@ -940,7 +958,7 @@
     "name": "Proxmox VE",
     "category": "DevOps",
     "firstLetter": "P",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#E57000\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">P</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/proxmox.svg",
     "description": "Complete open-source platform for enterprise virtualization.",
     "compatibleWith": ["debian", "linux", "kvm", "lxc"]
   },
@@ -949,7 +967,7 @@
     "name": "XCP-ng",
     "category": "DevOps",
     "firstLetter": "X",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#333333\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#00B0FF\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">X</text></svg>",
+    "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=XCP-ng&backgroundColor=d9480f",
     "description": "The turnkey Open Source hypervisor.",
     "compatibleWith": ["xen-orchestra", "linux"]
   },
@@ -958,7 +976,7 @@
     "name": "VMware ESXi",
     "category": "DevOps",
     "firstLetter": "V",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#607078\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#00B3E3\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">V</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vmware.svg",
     "description": "Purpose-built bare-metal hypervisor.",
     "compatibleWith": ["vcenter", "vsphere"]
   },
@@ -967,7 +985,7 @@
     "name": "Terraform",
     "category": "DevOps",
     "firstLetter": "T",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#844FBA\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">T</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/terraform.svg",
     "description": "Infrastructure as Code to deliver and manage any infrastructure.",
     "compatibleWith": ["aws", "azure", "gcp", "kubernetes"]
   },
@@ -976,7 +994,7 @@
     "name": "Ansible",
     "category": "DevOps",
     "firstLetter": "A",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#EE0000\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">A</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/ansible.svg",
     "description": "Automation that everyone can use.",
     "compatibleWith": ["linux", "python", "ssh"]
   },
@@ -985,7 +1003,7 @@
     "name": "Pulumi",
     "category": "DevOps",
     "firstLetter": "P",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#F26E32\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">P</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/pulumi.svg",
     "description": "Universal Infrastructure as Code.",
     "compatibleWith": ["typescript", "python", "go", "aws"]
   },
@@ -994,7 +1012,7 @@
     "name": "OpenTofu",
     "category": "DevOps",
     "firstLetter": "O",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#FFDB3C\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#333333\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">O</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/opentofu.svg",
     "description": "A community-driven, open-source fork of Terraform.",
     "compatibleWith": ["aws", "azure", "gcp", "kubernetes"]
   },
@@ -1003,7 +1021,7 @@
     "name": "GitHub Actions",
     "category": "DevOps",
     "firstLetter": "G",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#2088FF\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">G</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/githubactions.svg",
     "description": "Automate, customize, and execute your software development workflows right in your repository.",
     "compatibleWith": ["github", "docker", "javascript", "yaml"]
   },
@@ -1012,7 +1030,7 @@
     "name": "GitLab CI/CD",
     "category": "DevOps",
     "firstLetter": "G",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#FC6D26\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">G</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gitlab.svg",
     "description": "Build, test, and deploy with GitLab's integrated CI/CD tool.",
     "compatibleWith": ["gitlab", "docker", "kubernetes"]
   },
@@ -1021,7 +1039,7 @@
     "name": "Jenkins",
     "category": "DevOps",
     "firstLetter": "J",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#D24939\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">J</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/jenkins.svg",
     "description": "The leading open source automation server.",
     "compatibleWith": ["java", "docker", "linux"]
   },
@@ -1030,7 +1048,7 @@
     "name": "ArgoCD",
     "category": "DevOps",
     "firstLetter": "A",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#EF7B4D\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">A</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/argo.svg",
     "description": "Declarative GitOps CD for Kubernetes.",
     "compatibleWith": ["kubernetes", "helm", "github", "gitlab"]
   },
@@ -1039,7 +1057,7 @@
     "name": "AWS",
     "category": "DevOps",
     "firstLetter": "A",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M110.3 75.3c-2.6 1.4-6.3 2.1-11 2.1-14.4 0-21.2-9-21.2-22.5s6.8-22.5 21.2-22.5c4.7 0 8.4.7 11 2.1V22.2c-2.6-1.4-6.3-2.1-11-2.1-21.8 0-33.8 14.5-33.8 34.8s12 34.8 33.8 34.8c4.7 0 8.4-.7 11-2.1V75.3z\" fill=\"#232F3E\"/><path d=\"M128 54.8c0 20.3-12 34.8-33.8 34.8-21.8 0-33.8-14.5-33.8-34.8S72.4 20 94.2 20c21.8 0 33.8 14.5 33.8 34.8z\" fill=\"#FF9900\" opacity=\"0.2\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazonwebservices.svg",
     "description": "Amazon Web Services (AWS) is the world's most comprehensive and broadly adopted cloud platform.",
     "compatibleWith": ["terraform", "kubernetes", "aws-lambda", "aws-s3"]
   },
@@ -1048,7 +1066,7 @@
     "name": "Google Cloud Platform",
     "category": "DevOps",
     "firstLetter": "G",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#4285F4\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">G</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/googlecloud.svg",
     "description": "Suite of cloud computing services that runs on the same infrastructure that Google uses internally.",
     "compatibleWith": ["kubernetes", "terraform", "firebase"]
   },
@@ -1057,7 +1075,7 @@
     "name": "Microsoft Azure",
     "category": "DevOps",
     "firstLetter": "M",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#0078D4\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">M</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftazure.svg",
     "description": "Azure is a cloud computing platform and infrastructure created by Microsoft.",
     "compatibleWith": ["c-sharp", "asp-net-core", "microsoft-sql-server"]
   },
@@ -1066,7 +1084,7 @@
     "name": "Vercel",
     "category": "DevOps",
     "firstLetter": "V",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#000000\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">V</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vercel.svg",
     "description": "The platform for frontend developers, providing the speed and reliability innovators need.",
     "compatibleWith": ["next-js", "react", "github"]
   },
@@ -1075,7 +1093,7 @@
     "name": "Netlify",
     "category": "DevOps",
     "firstLetter": "N",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#00C7B7\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">N</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/netlify.svg",
     "description": "A cloud computing company that offers a development platform that includes build, deploy, and serverless backend services.",
     "compatibleWith": ["react", "vue-js", "github"]
   },
@@ -1084,7 +1102,7 @@
     "name": "Render",
     "category": "DevOps",
     "firstLetter": "R",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#4642CC\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">R</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/render.svg",
     "description": "Cloud platform to host all your apps and websites, from simple static sites to complex applications with databases.",
     "compatibleWith": ["node-js", "python", "postgresql"]
   },
@@ -1093,7 +1111,7 @@
     "name": "Fly.io",
     "category": "DevOps",
     "firstLetter": "F",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#24185B\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#9A66FF\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">F</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/flydotio.svg",
     "description": "Deploy app servers close to your users.",
     "compatibleWith": ["docker", "elixir", "node-js", "postgresql"]
   },
@@ -1102,7 +1120,7 @@
     "name": "AWS Lambda",
     "category": "DevOps",
     "firstLetter": "A",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#FF9900\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">A</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/awslambda.svg",
     "description": "Serverless compute service that runs your code in response to events and automatically manages the underlying compute resources.",
     "compatibleWith": ["aws", "python", "node-js", "aws-api-gateway"]
   },
@@ -1111,7 +1129,7 @@
     "name": "Cloudflare Workers",
     "category": "DevOps",
     "firstLetter": "C",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#F38020\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">C</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/cloudflareworkers.svg",
     "description": "Deploy serverless code instantly across the globe to give it exceptional performance, reliability, and scale.",
     "compatibleWith": ["javascript", "typescript", "rust", "hono"]
   },
@@ -1120,7 +1138,7 @@
     "name": "Prometheus",
     "category": "Monitoring",
     "firstLetter": "P",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#E6522C\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">P</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/prometheus.svg",
     "description": "Open-source systems monitoring and alerting toolkit.",
     "compatibleWith": ["grafana", "kubernetes", "node-exporter"]
   },
@@ -1129,7 +1147,7 @@
     "name": "Grafana",
     "category": "Monitoring",
     "firstLetter": "G",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#F46800\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">G</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/grafana.svg",
     "description": "The open observability platform.",
     "compatibleWith": ["prometheus", "influxdb", "elasticsearch", "loki"]
   },
@@ -1138,7 +1156,7 @@
     "name": "Datadog",
     "category": "Monitoring",
     "firstLetter": "D",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#632CA6\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">D</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/datadog.svg",
     "description": "Monitoring service for cloud-scale applications.",
     "compatibleWith": ["aws", "kubernetes", "docker", "node-js"]
   },
@@ -1147,7 +1165,7 @@
     "name": "ELK Stack",
     "category": "Monitoring",
     "firstLetter": "E",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#005571\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#F0BF4C\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">E</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/elasticstack.svg",
     "description": "Elasticsearch, Logstash, and Kibana.",
     "compatibleWith": ["elasticsearch", "logstash", "kibana", "beats"]
   },
@@ -1156,7 +1174,7 @@
     "name": "Grafana Loki",
     "category": "Monitoring",
     "firstLetter": "G",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#F46800\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">G</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/grafana.svg",
     "description": "Like Prometheus, but for logs.",
     "compatibleWith": ["grafana", "promtail", "kubernetes"]
   },
@@ -1165,7 +1183,7 @@
     "name": "Seq",
     "category": "Monitoring",
     "firstLetter": "S",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#5393FF\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">S</text></svg>",
+    "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Seq&backgroundColor=d9480f",
     "description": "The intelligent search and analysis server for structured log data.",
     "compatibleWith": ["serilog", "dot-net", "docker"]
   },
@@ -1174,7 +1192,7 @@
     "name": "Sentry",
     "category": "Monitoring",
     "firstLetter": "S",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#362D59\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">S</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/sentry.svg",
     "description": "Application monitoring and error tracking software.",
     "compatibleWith": ["javascript", "python", "react", "next-js"]
   },
@@ -1183,7 +1201,7 @@
     "name": "Honeycomb",
     "category": "Monitoring",
     "firstLetter": "H",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#E4342D\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">H</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/honeycomb.svg",
     "description": "Observability for high-cardinality data.",
     "compatibleWith": ["opentelemetry", "node-js", "python"]
   },
@@ -1192,7 +1210,7 @@
     "name": "New Relic",
     "category": "Monitoring",
     "firstLetter": "N",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#1CE783\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#000D10\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">N</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/newrelic.svg",
     "description": "Cloud-based observability platform.",
     "compatibleWith": ["java", "node-js", "python", "aws"]
   },
@@ -1201,7 +1219,7 @@
     "name": "Auth0",
     "category": "Security",
     "firstLetter": "A",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#EB5424\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">A</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/auth0.svg",
     "description": "Identity platform for application builders.",
     "compatibleWith": ["javascript", "react", "node-js"]
   },
@@ -1210,7 +1228,7 @@
     "name": "Keycloak",
     "category": "Security",
     "firstLetter": "K",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#222222\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#00B0E4\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">K</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/keycloak.svg",
     "description": "Open source identity and access management for modern applications and services.",
     "compatibleWith": ["java", "kubernetes", "docker"]
   },
@@ -1219,7 +1237,7 @@
     "name": "Firebase Auth",
     "category": "Security",
     "firstLetter": "F",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M25.3 98.4l11.6-72.2c.4-2.2 2.7-3.4 4.6-2.3L64 42 25.3 98.4z\" fill=\"#FFCA28\"/><path d=\"M102.7 98.4L64 42l22.5-18.1c1.9-1.1 4.2.1 4.6 2.3l11.6 72.2z\" fill=\"#FFA000\"/><path d=\"M25.3 98.4h77.4L64 117.6 25.3 98.4z\" fill=\"#FF8F00\"/></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/firebase.svg",
     "description": "Authentication for your app using Firebase.",
     "compatibleWith": ["firebase", "react", "flutter"]
   },
@@ -1228,7 +1246,7 @@
     "name": "Clerk",
     "category": "Security",
     "firstLetter": "C",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#6C47FF\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">C</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/clerk.svg",
     "description": "Complete user management and authentication.",
     "compatibleWith": ["next-js", "react", "typescript"]
   },
@@ -1237,7 +1255,7 @@
     "name": "Kinde",
     "category": "Security",
     "firstLetter": "K",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#000000\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#00FF00\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">K</text></svg>",
+    "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Kinde&backgroundColor=d9480f",
     "description": "Infrastructure for modern SaaS builders.",
     "compatibleWith": ["next-js", "react", "node-js"]
   },
@@ -1246,7 +1264,7 @@
     "name": "NextAuth.js",
     "category": "Security",
     "firstLetter": "N",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#000000\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">N</text></svg>",
+    "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=NextAuth&backgroundColor=d9480f",
     "description": "Authentication for Next.js.",
     "compatibleWith": ["next-js", "react", "typescript", "prisma"]
   },
@@ -1255,7 +1273,7 @@
     "name": "HashiCorp Vault",
     "category": "Security",
     "firstLetter": "H",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#000000\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#FFDB3C\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">H</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vault.svg",
     "description": "Manage secrets and protect sensitive data.",
     "compatibleWith": ["terraform", "kubernetes", "nomad"]
   },
@@ -1264,7 +1282,7 @@
     "name": "AWS Secrets Manager",
     "category": "Security",
     "firstLetter": "A",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#E34F26\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">A</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazonwebservices.svg",
     "description": "Rotate, manage, and retrieve secrets, such as database credentials and API keys throughout their lifecycle.",
     "compatibleWith": ["aws", "lambda", "iam"]
   },
@@ -1273,16 +1291,25 @@
     "name": "Doppler",
     "category": "Security",
     "firstLetter": "D",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#FF3E00\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">D</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/doppler.svg",
     "description": "The multi-platform secret ops platform.",
     "compatibleWith": ["docker", "kubernetes", "github-actions", "vercel"]
+  },
+  {
+    "id": "okta",
+    "name": "Okta",
+    "category": "Security",
+    "firstLetter": "O",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/okta.svg",
+    "description": "The World’s Identity Company, providing secure identity management and single sign-on.",
+    "compatibleWith": ["javascript", "react", "node-js", "java"]
   },
   {
     "id": "pytorch",
     "name": "PyTorch",
     "category": "AI & ML",
     "firstLetter": "P",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#EE4C2C\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">P</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/pytorch.svg",
     "description": "An open source machine learning framework that accelerates the path from research prototyping to production deployment.",
     "compatibleWith": ["python", "cuda", "onnx"]
   },
@@ -1291,7 +1318,7 @@
     "name": "TensorFlow",
     "category": "AI & ML",
     "firstLetter": "T",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#FF6F00\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">T</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tensorflow.svg",
     "description": "An end-to-end open source platform for machine learning.",
     "compatibleWith": ["python", "keras", "tfx"]
   },
@@ -1300,7 +1327,7 @@
     "name": "Scikit-learn",
     "category": "AI & ML",
     "firstLetter": "S",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#F7931E\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">S</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/scikitlearn.svg",
     "description": "Simple and efficient tools for predictive data analysis.",
     "compatibleWith": ["python", "numpy", "scipy"]
   },
@@ -1309,7 +1336,7 @@
     "name": "LangChain",
     "category": "AI & ML",
     "firstLetter": "L",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#000000\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#12D19E\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">L</text></svg>",
+    "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=LangChain&backgroundColor=d9480f",
     "description": "Framework for developing applications powered by language models.",
     "compatibleWith": ["python", "javascript", "openai-api", "pinecone"]
   },
@@ -1318,7 +1345,7 @@
     "name": "LlamaIndex",
     "category": "AI & ML",
     "firstLetter": "L",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#000000\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"#5E35B1\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">L</text></svg>",
+    "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=LlamaIndex&backgroundColor=d9480f",
     "description": "Data framework for LLM applications.",
     "compatibleWith": ["python", "openai-api", "langchain"]
   },
@@ -1327,7 +1354,7 @@
     "name": "OpenAI API",
     "category": "AI & ML",
     "firstLetter": "O",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#412991\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">O</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/openai.svg",
     "description": "Access to OpenAI's powerful models like GPT-4 and DALL-E.",
     "compatibleWith": ["python", "javascript", "langchain"]
   },
@@ -1336,7 +1363,7 @@
     "name": "Hugging Face",
     "category": "AI & ML",
     "firstLetter": "H",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#FFD21E\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"black\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">H</text></svg>",
+    "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/huggingface.svg",
     "description": "The AI community building the future.",
     "compatibleWith": ["python", "transformers", "pytorch"]
   },
@@ -1345,7 +1372,7 @@
     "name": "Ollama",
     "category": "AI & ML",
     "firstLetter": "O",
-    "svgContent": "<svg viewBox=\"0 0 128 128\" class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"128\" height=\"128\" rx=\"24\" fill=\"#000000\"/><text x=\"50%\" y=\"50%\" dy=\".35em\" fill=\"white\" font-family=\"sans-serif\" font-size=\"72\" text-anchor=\"middle\" font-weight=\"bold\">O</text></svg>",
+    "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Ollama&backgroundColor=d9480f",
     "description": "Get up and running with large language models locally.",
     "compatibleWith": ["llama2", "mistral", "docker"]
   }
