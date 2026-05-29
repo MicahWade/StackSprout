@@ -81,7 +81,27 @@ function render() {
 
 function renderStandardControls() {
   const cats: Category[] = ['Frontend Framework', 'Frontend Style', 'Backend Language', 'Backend Framework', 'Database', 'Cloud', 'DevOps', 'Mobile'];
-  return `<div class="flex flex-col h-full"><h3 class="text-[10px] font-black uppercase tracking-widest text-slate-500 mb-4 shrink-0">Categories</h3><div class="grid grid-cols-1 gap-2 overflow-y-auto custom-scrollbar flex-1 pr-2">${cats.map(cat => `<label class="flex items-center justify-between p-3 rounded-xl border border-slate-800 bg-slate-950/50 cursor-pointer hover:border-brand-orange/30 transition-all group"><span class="text-[11px] font-bold text-slate-400 group-hover:text-slate-200">${cat}</span><input type="checkbox" value="${cat}" class="cat-checkbox w-4 h-4 rounded border-slate-700 bg-slate-900 text-brand-orange focus:ring-brand-orange" ${activeCategories.includes(cat) ? 'checked' : ''}></label>`).join('')}</div></div>`;
+  return `
+    <div class="flex flex-col h-full">
+      <h3 class="text-[10px] font-black uppercase tracking-widest text-slate-500 mb-3 shrink-0">Categories</h3>
+      <div class="grid grid-cols-1 gap-1.5 overflow-y-auto custom-scrollbar flex-1 pr-2">
+        ${cats.map(cat => {
+          const isActive = activeCategories.includes(cat);
+          return `
+            <label class="flex items-center justify-between px-3 py-2 rounded-xl border border-slate-800 bg-slate-950/50 cursor-pointer hover:border-brand-orange/30 transition-all group">
+              <span class="text-[10px] font-bold text-slate-400 group-hover:text-slate-200">${cat}</span>
+              <div class="relative inline-flex items-center cursor-pointer">
+                <input type="checkbox" value="${cat}" class="cat-checkbox sr-only" ${isActive ? 'checked' : ''}>
+                <div class="w-8 h-4 bg-slate-800 rounded-full transition-colors group-hover:bg-slate-700 ${isActive ? '!bg-brand-orange' : ''}">
+                  <div class="absolute top-0.5 left-0.5 w-3 h-3 bg-white rounded-full transition-transform ${isActive ? 'translate-x-4' : ''}"></div>
+                </div>
+              </div>
+            </label>
+          `;
+        }).join('')}
+      </div>
+    </div>
+  `;
 }
 
 function renderAcronymControls() {
