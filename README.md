@@ -29,10 +29,19 @@ StackSprout is a modern, high-energy tech stack randomizer designed to help deve
 - `npm run preview`: Previews the production build locally.
 - `npm run type-check`: Runs TypeScript type checking.
 
-## 🏗️ Tech Stack Options
+## 🏗️ The 8-Layer Architecture
 
-The available technologies can be found and modified in `src/technologies.json`.
+StackSprout organizes technologies into 8 logical layers to ensure a comprehensive stack:
 
-## 📜 License
+1.  **Frontend Layer**: Client-side languages, frameworks, and styling.
+2.  **Backend Layer**: Server-side logic, frameworks, and task queues.
+3.  **Database & Storage**: Structured data, caching, and object storage.
+4.  **API & Integration**: Communication protocols and message brokers.
+5.  **DevOps & Infrastructure**: Hosting, containerization, and automation.
+6.  **Monitoring & Observability**: Metrics, logging, and error tracking.
+7.  **Security & Identity**: Authentication and secrets management.
+8.  **AI & ML Layer**: Intelligence and orchestration.
+
+## 🛠️ Commands
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

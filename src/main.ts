@@ -2,14 +2,14 @@ import './style.css'
 import TECHNOLOGIES_DATA from './technologies.json';
 
 type Category = 
-  | 'Frontend Framework' 
-  | 'Frontend Style' 
-  | 'Backend Language' 
-  | 'Backend Framework' 
+  | 'Frontend' 
+  | 'Backend' 
   | 'Database' 
-  | 'Cloud' 
+  | 'API & Integration' 
   | 'DevOps' 
-  | 'Mobile';
+  | 'Monitoring' 
+  | 'Security' 
+  | 'AI & ML';
 
 interface Technology {
   id: string;
@@ -27,7 +27,7 @@ const TECHNOLOGIES: Technology[] = TECHNOLOGIES_DATA as Technology[];
 type AppMode = 'Standard' | 'Acronym';
 let currentMode: AppMode = 'Standard';
 let isUsableMode = true;
-let activeCategories: Category[] = ['Frontend Framework', 'Frontend Style', 'Backend Language', 'Backend Framework', 'Database', 'Cloud', 'DevOps', 'Mobile'];
+let activeCategories: Category[] = ['Frontend', 'Backend', 'Database', 'API & Integration', 'DevOps', 'Monitoring', 'Security', 'AI & ML'];
 let generatedStack: Technology[] = [];
 let acronymInput = '';
 let shouldAnimate = false;
@@ -82,7 +82,7 @@ function render() {
 }
 
 function renderStandardControls() {
-  const cats: Category[] = ['Frontend Framework', 'Frontend Style', 'Backend Language', 'Backend Framework', 'Database', 'Cloud', 'DevOps', 'Mobile'];
+  const cats: Category[] = ['Frontend', 'Backend', 'Database', 'API & Integration', 'DevOps', 'Monitoring', 'Security', 'AI & ML'];
   return `
     <div class="flex flex-col h-full">
       <h3 class="text-[10px] font-black uppercase tracking-widest text-slate-500 mb-3 shrink-0">Categories</h3>
@@ -217,7 +217,7 @@ function generateAcronymStack() {
         if (comp.length > 0) matches = comp;
       }
       if (matches.length > 0) next.push({...matches[Math.floor(Math.random() * matches.length)]});
-      else next.push({ id: `fake-${char}-${i}`, name: `${char}${['enon','flow','grid','byte','core','sync'][Math.floor(Math.random()*6)]}`, category: 'Backend Language', firstLetter: char, svgContent: '<svg viewBox="0 0 128 128" class="w-full h-full" xmlns="http://www.w3.org/2000/svg"><circle cx="64" cy="64" r="40" fill="none" stroke="currentColor" stroke-width="4" stroke-dasharray="10"/></svg>', description: 'Quantum microservice.', compatibleWith: [] });
+      else next.push({ id: `fake-${char}-${i}`, name: `${char}${['enon','flow','grid','byte','core','sync'][Math.floor(Math.random()*6)]}`, category: 'Backend', firstLetter: char, svgContent: '<svg viewBox="0 0 128 128" class="w-full h-full" xmlns="http://www.w3.org/2000/svg"><circle cx="64" cy="64" r="40" fill="none" stroke="currentColor" stroke-width="4" stroke-dasharray="10"/></svg>', description: 'Quantum microservice.', compatibleWith: [] });
     }
   });
   generatedStack = next;
