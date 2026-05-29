@@ -43,6 +43,25 @@ let generatedStack: Technology[] = [];
 let acronymInput = '';
 let shouldAnimate = false;
 let sidebarScrollTop = 0;
+let resultsScrollTop = 0;
+
+const LAYER_COLORS: Record<string, string> = {
+  'Frontend Layer': '#3b82f6',
+  'Backend Layer': '#10b981',
+  'Database Layer': '#8b5cf6',
+  'API Layer': '#f59e0b',
+  'DevOps Layer': '#ef4444',
+  'Monitoring Layer': '#ec4899',
+  'Security Layer': '#6366f1',
+  'AI & ML Layer': '#f97316'
+};
+
+const getLayerForCategory = (cat: Category): string => {
+  for (const [layer, subCats] of Object.entries(LAYER_GROUPS)) {
+    if (subCats.includes(cat)) return layer;
+  }
+  return 'Frontend Layer';
+};
 
 const PALETTE = ['#91a6ff', '#d9480f', '#faff7f', '#ffffff', '#ff5154'];
 const appElement = document.getElementById('app')!;
@@ -68,6 +87,9 @@ const PRESETS = [
 function render() {
   const sidebar = document.getElementById('sidebar-controls');
   if (sidebar) sidebarScrollTop = sidebar.scrollTop;
+
+  const results = document.getElementById('results-stage');
+  if (results) resultsScrollTop = results.scrollTop;
 
   appElement.innerHTML = `
     <div class="min-h-screen bg-slate-950 text-slate-100 p-4 md:p-8 font-sans selection:bg-brand-orange selection:text-white overflow-hidden">
@@ -129,12 +151,12 @@ function renderStandardControls() {
             ${subCats.map(cat => {
               const isActive = activeCategories.includes(cat);
               return `
-                <label class="flex items-center justify-between px-3 py-1.5 rounded-xl border border-slate-800/50 bg-slate-950/30 cursor-pointer hover:border-brand-orange/30 transition-all group">
-                  <span class="text-xs font-bold text-slate-400 group-hover:text-slate-200">${cat}</span>
+                <label class="flex items-center justify-between px-4 py-2.5 rounded-xl border border-slate-800 bg-slate-950/50 cursor-pointer hover:border-brand-orange/30 transition-all group">
+                  <span class="text-xl font-bold text-slate-400 group-hover:text-slate-200">${cat}</span>
                   <div class="relative inline-flex items-center cursor-pointer">
                     <input type="checkbox" value="${cat}" class="cat-checkbox sr-only" ${isActive ? 'checked' : ''}>
-                    <div class="w-8 h-4 bg-slate-800 rounded-full transition-colors group-hover:bg-slate-700 ${isActive ? '!bg-brand-orange' : ''}">
-                      <div class="absolute top-0.5 left-0.5 w-3 h-3 bg-white rounded-full transition-transform ${isActive ? 'translate-x-4' : ''}"></div>
+                    <div class="w-12 h-6 bg-slate-800 rounded-full transition-colors group-hover:bg-slate-700 ${isActive ? '!bg-brand-orange' : ''}">
+                      <div class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform ${isActive ? 'translate-x-6' : ''}"></div>
                     </div>
                   </div>
                 </label>
@@ -154,18 +176,19 @@ function renderAcronymControls() {
 function renderEmptyState() {
   return `<div class="flex-1 flex flex-col items-center justify-center opacity-20"><div class="text-8xl mb-6 text-brand-orange">🌱</div><p class="text-xs font-black uppercase tracking-[0.3em]">System Standby</p></div>`;
 }
+
 function renderStack() {
   return generatedStack.map((tech, i) => {
-    const accentColor = PALETTE[i % PALETTE.length];
+    const layer = getLayerForCategory(tech.category);
+    const accentColor = LAYER_COLORS[layer] || PALETTE[i % PALETTE.length];
     return `
       <div class="coolors-row min-h-[84px] flex items-center px-6 bg-slate-900/80 border border-slate-800/50 rounded-3xl relative group overflow-hidden transition-all hover:border-slate-700 shadow-xl shrink-0 ${shouldAnimate ? 'scramble-effect' : ''}" style="animation-delay: ${i * 50}ms">
         <div class="absolute left-0 top-0 bottom-0 w-1.5" style="background-color: ${accentColor}"></div>
         <div class="flex items-center gap-6 z-10 w-full">
-...
           <div class="w-12 h-12 p-2.5 bg-slate-950 rounded-2xl border border-slate-800 flex items-center justify-center shadow-inner group-hover:scale-110 transition-transform overflow-hidden">
             <img src="${tech.iconUrl}" alt="${tech.name}" class="w-full h-full object-contain" />
           </div>
-          <div class="flex-1"><h3 class="text-xl font-black uppercase tracking-tighter text-white group-hover:text-brand-orange transition-colors line-clamp-1">${tech.name}</h3><p class="text-[11px] font-black opacity-40 uppercase tracking-[0.1em] text-slate-400 mt-0.5">${tech.category}</p></div>
+          <div class="flex-1"><h3 class="text-xl font-black uppercase tracking-tighter text-white group-hover:text-brand-orange transition-colors">${tech.name}</h3><p class="text-[11px] font-black opacity-40 uppercase tracking-[0.1em] text-slate-400 mt-0.5">${tech.category}</p></div>
           <div class="row-actions flex items-center gap-2">
             <button data-id="${tech.id}" class="info-btn p-3 rounded-xl bg-slate-950/50 text-slate-500 hover:text-brand-yellow hover:bg-slate-950 border border-transparent hover:border-slate-800 transition-all"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></button>
             <button data-id="${tech.id}" class="lock-btn p-3 rounded-xl bg-slate-950/50 border border-transparent hover:border-slate-800 transition-all ${tech.isLocked ? 'text-brand-orange bg-slate-950 border-slate-800' : 'text-slate-500 hover:text-brand-orange hover:bg-slate-950'}">
@@ -212,7 +235,6 @@ function attachEventListeners() {
     const t = generatedStack.find(x => x.id === id);
     if (t) alert(`${t.name} (${t.category})\n\n${t.description}`);
   }));
-
   document.querySelectorAll('.preset-btn').forEach(btn => btn.addEventListener('click', (e) => {
     const id = (e.currentTarget as HTMLElement).dataset.preset;
     const preset = PRESETS.find(p => p.id === id);
@@ -224,6 +246,9 @@ function attachEventListeners() {
 
   const sidebarAfter = document.getElementById('sidebar-controls');
   if (sidebarAfter) sidebarAfter.scrollTop = sidebarScrollTop;
+
+  const resultsAfter = document.getElementById('results-stage');
+  if (resultsAfter) resultsAfter.scrollTop = resultsScrollTop;
 }
 
 function sprout() {
@@ -238,7 +263,6 @@ function generateStandardStack() {
   if (allowed.length === 0) { generatedStack = []; return; }
   const next: Technology[] = [];
   
-  // Pick one for EACH active sub-category to satisfy "what is picked not DevOps"
   activeCategories.forEach((cat) => {
     const locked = generatedStack.find(s => s.isLocked && s.category === cat);
     if (locked) next.push(locked);
