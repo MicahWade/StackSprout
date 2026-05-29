@@ -116,11 +116,11 @@ function renderStack() {
   return generatedStack.map((tech, i) => {
     const accentColor = PALETTE[i % PALETTE.length];
     return `
-      <div class="coolors-row min-h-[100px] flex items-center px-8 bg-slate-900/80 border border-slate-800/50 rounded-3xl relative group overflow-hidden transition-all hover:border-slate-700 shadow-xl shrink-0 scramble-effect" style="animation-delay: ${i * 100}ms">
+      <div class="coolors-row min-h-[84px] flex items-center px-6 bg-slate-900/80 border border-slate-800/50 rounded-3xl relative group overflow-hidden transition-all hover:border-slate-700 shadow-xl shrink-0 scramble-effect" style="animation-delay: ${i * 100}ms">
         <div class="absolute left-0 top-0 bottom-0 w-1.5" style="background-color: ${accentColor}"></div>
         <div class="flex items-center gap-6 z-10 w-full">
-          <div class="w-14 h-14 p-3 bg-slate-950 rounded-2xl border border-slate-800 flex items-center justify-center shadow-inner group-hover:scale-110 transition-transform overflow-hidden svg-container">${tech.svgContent}</div>
-          <div class="flex-1"><h3 class="text-xl font-black uppercase tracking-tighter text-white group-hover:text-brand-orange transition-colors line-clamp-1">${tech.name}</h3><p class="text-[9px] font-black opacity-40 uppercase tracking-[0.2em] text-slate-400 mt-1">${tech.category}</p></div>
+          <div class="w-12 h-12 p-2.5 bg-slate-950 rounded-2xl border border-slate-800 flex items-center justify-center shadow-inner group-hover:scale-110 transition-transform overflow-hidden svg-container">${tech.svgContent}</div>
+          <div class="flex-1"><h3 class="text-xl font-black uppercase tracking-tighter text-white group-hover:text-brand-orange transition-colors line-clamp-1">${tech.name}</h3><p class="text-[11px] font-black opacity-40 uppercase tracking-[0.1em] text-slate-400 mt-0.5">${tech.category}</p></div>
           <div class="row-actions flex items-center gap-2">
             <button data-id="${tech.id}" class="info-btn p-3 rounded-xl bg-slate-950/50 text-slate-500 hover:text-brand-yellow hover:bg-slate-950 border border-transparent hover:border-slate-800 transition-all"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></button>
             <button data-id="${tech.id}" class="lock-btn p-3 rounded-xl bg-slate-950/50 border border-transparent hover:border-slate-800 transition-all ${tech.isLocked ? 'text-brand-orange bg-slate-950 border-slate-800' : 'text-slate-500 hover:text-brand-orange hover:bg-slate-950'}">
