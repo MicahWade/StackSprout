@@ -2,7 +2,7 @@
   {
     "id": "html5",
     "name": "HTML5",
-    "category": "Frontend",
+    "category": "Core Languages",
     "firstLetter": "H",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg",
     "description": "The standard markup language for documents designed to be displayed in a web browser.",
@@ -11,7 +11,7 @@
   {
     "id": "css3",
     "name": "CSS3",
-    "category": "Frontend",
+    "category": "Core Languages",
     "firstLetter": "C",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg",
     "description": "The style sheet language used for describing the presentation of a document written in HTML.",
@@ -20,7 +20,7 @@
   {
     "id": "javascript",
     "name": "JavaScript",
-    "category": "Frontend",
+    "category": "Core Languages",
     "firstLetter": "J",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg",
     "description": "High-level, often just-in-time compiled language that conforms to the ECMAScript specification.",
@@ -29,7 +29,7 @@
   {
     "id": "typescript",
     "name": "TypeScript",
-    "category": "Frontend",
+    "category": "Core Languages",
     "firstLetter": "T",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/typescript.svg",
     "description": "Strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
@@ -38,7 +38,7 @@
   {
     "id": "react",
     "name": "React",
-    "category": "Frontend",
+    "category": "Frontend Frameworks",
     "firstLetter": "R",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
     "description": "A JavaScript library for building user interfaces.",
@@ -47,7 +47,7 @@
   {
     "id": "vue-js",
     "name": "Vue.js",
-    "category": "Frontend",
+    "category": "Frontend Frameworks",
     "firstLetter": "V",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vuedotjs.svg",
     "description": "The progressive JavaScript framework for building web user interfaces.",
@@ -56,7 +56,7 @@
   {
     "id": "angular",
     "name": "Angular",
-    "category": "Frontend",
+    "category": "Frontend Frameworks",
     "firstLetter": "A",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/angular.svg",
     "description": "A component-based framework for building scalable web applications.",
@@ -65,7 +65,7 @@
   {
     "id": "svelte",
     "name": "Svelte",
-    "category": "Frontend",
+    "category": "Frontend Frameworks",
     "firstLetter": "S",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/svelte.svg",
     "description": "A radical new approach to building user interfaces by shifting the work to a compile step.",
@@ -74,7 +74,7 @@
   {
     "id": "solid-js",
     "name": "SolidJS",
-    "category": "Frontend",
+    "category": "Frontend Frameworks",
     "firstLetter": "S",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/solid.svg",
     "description": "A declarative, efficient and flexible JavaScript library for building user interfaces.",
@@ -83,7 +83,7 @@
   {
     "id": "next-js",
     "name": "Next.js",
-    "category": "Frontend",
+    "category": "Meta-Frameworks",
     "firstLetter": "N",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nextdotjs.svg",
     "description": "The React Framework for the Web.",
@@ -92,7 +92,7 @@
   {
     "id": "nuxt-js",
     "name": "Nuxt.js",
-    "category": "Frontend",
+    "category": "Meta-Frameworks",
     "firstLetter": "N",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nuxtdotjs.svg",
     "description": "The Intuitive Vue Framework.",
@@ -101,7 +101,7 @@
   {
     "id": "sveltekit",
     "name": "SvelteKit",
-    "category": "Frontend",
+    "category": "Meta-Frameworks",
     "firstLetter": "S",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/svelte.svg",
     "description": "The fastest way to build Svelte apps.",
@@ -110,7 +110,7 @@
   {
     "id": "astro",
     "name": "Astro",
-    "category": "Frontend",
+    "category": "Meta-Frameworks",
     "firstLetter": "A",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/astro.svg",
     "description": "The web framework for content-driven websites.",
@@ -119,7 +119,7 @@
   {
     "id": "remix",
     "name": "Remix",
-    "category": "Frontend",
+    "category": "Meta-Frameworks",
     "firstLetter": "R",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/remix.svg",
     "description": "A full stack web framework that lets you focus on the user interface.",
@@ -128,7 +128,7 @@
   {
     "id": "tailwind-css",
     "name": "Tailwind CSS",
-    "category": "Frontend",
+    "category": "Styling",
     "firstLetter": "T",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tailwindcss.svg",
     "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
@@ -137,7 +137,7 @@
   {
     "id": "bootstrap",
     "name": "Bootstrap",
-    "category": "Frontend",
+    "category": "Styling",
     "firstLetter": "B",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/bootstrap.svg",
     "description": "Powerful, extensible, and feature-packed frontend toolkit.",
@@ -146,7 +146,7 @@
   {
     "id": "sass",
     "name": "Sass",
-    "category": "Frontend",
+    "category": "Styling",
     "firstLetter": "S",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/sass.svg",
     "description": "The most mature, stable, and powerful professional grade CSS extension language in the world.",
@@ -155,7 +155,7 @@
   {
     "id": "styled-components",
     "name": "Styled Components",
-    "category": "Frontend",
+    "category": "Styling",
     "firstLetter": "S",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/styledcomponents.svg",
     "description": "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps.",
@@ -164,7 +164,7 @@
   {
     "id": "css-modules",
     "name": "CSS Modules",
-    "category": "Frontend",
+    "category": "Styling",
     "firstLetter": "C",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/cssmodules.svg",
     "description": "A CSS file in which all class names and animation names are scoped locally by default.",
@@ -173,7 +173,7 @@
   {
     "id": "react-native",
     "name": "React Native",
-    "category": "Frontend",
+    "category": "Mobile Frameworks",
     "firstLetter": "R",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
     "description": "Create native apps for Android, iOS, and more using React.",
@@ -182,7 +182,7 @@
   {
     "id": "flutter",
     "name": "Flutter",
-    "category": "Frontend",
+    "category": "Mobile Frameworks",
     "firstLetter": "F",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/flutter.svg",
     "description": "Build apps for any screen from a single codebase.",
@@ -191,7 +191,7 @@
   {
     "id": "swift-ios",
     "name": "Swift (iOS)",
-    "category": "Frontend",
+    "category": "Mobile Frameworks",
     "firstLetter": "S",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/swift.svg",
     "description": "Powerful and intuitive programming language for iOS, iPadOS, macOS, tvOS, and watchOS.",
@@ -200,7 +200,7 @@
   {
     "id": "kotlin-java-android",
     "name": "Kotlin/Java (Android)",
-    "category": "Frontend",
+    "category": "Mobile Frameworks",
     "firstLetter": "K",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/kotlin.svg",
     "description": "The modern programming language that makes developers happier for Android development.",
@@ -209,7 +209,7 @@
   {
     "id": "maui",
     "name": "MAUI",
-    "category": "Frontend",
+    "category": "Mobile Frameworks",
     "firstLetter": "M",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dotnet.svg",
     "description": ".NET Multi-platform App UI is a cross-platform framework for creating native mobile and desktop apps with C# and XAML.",
@@ -218,7 +218,7 @@
   {
     "id": "electron",
     "name": "Electron",
-    "category": "Frontend",
+    "category": "Desktop Frameworks",
     "firstLetter": "E",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/electron.svg",
     "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS.",
@@ -227,7 +227,7 @@
   {
     "id": "tauri",
     "name": "Tauri",
-    "category": "Frontend",
+    "category": "Desktop Frameworks",
     "firstLetter": "T",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tauri.svg",
     "description": "Build an optimized, secure, and frontend-independent application for multi-platform deployment.",
@@ -236,7 +236,7 @@
   {
     "id": "nw-js",
     "name": "NW.js",
-    "category": "Frontend",
+    "category": "Desktop Frameworks",
     "firstLetter": "N",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nwjs.svg",
     "description": "Call all Node.js modules directly from DOM and enable a new way of writing applications with all Web technologies.",
@@ -245,7 +245,7 @@
   {
     "id": "tanstack-query",
     "name": "TanStack Query",
-    "category": "Frontend",
+    "category": "Frontend Frameworks",
     "firstLetter": "T",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tanstack.svg",
     "description": "Powerful asynchronous state management for TS/JS, React, Solid, Vue and Svelte.",
@@ -254,7 +254,7 @@
   {
     "id": "python",
     "name": "Python",
-    "category": "Backend",
+    "category": "Backend Languages",
     "firstLetter": "P",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/python.svg",
     "description": "Interpreted, high-level and general-purpose programming language.",
@@ -263,7 +263,7 @@
   {
     "id": "node-js",
     "name": "Node.js",
-    "category": "Backend",
+    "category": "Backend Languages",
     "firstLetter": "N",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nodedotjs.svg",
     "description": "Asynchronous event-driven JavaScript runtime designed to build scalable network applications.",
@@ -272,7 +272,7 @@
   {
     "id": "deno",
     "name": "Deno",
-    "category": "Backend",
+    "category": "Backend Languages",
     "firstLetter": "D",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/deno.svg",
     "description": "A modern runtime for JavaScript and TypeScript.",
@@ -281,7 +281,7 @@
   {
     "id": "bun",
     "name": "Bun",
-    "category": "Backend",
+    "category": "Backend Languages",
     "firstLetter": "B",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/bun.svg",
     "description": "A fast all-in-one JavaScript runtime.",
@@ -290,7 +290,7 @@
   {
     "id": "go",
     "name": "Go",
-    "category": "Backend",
+    "category": "Backend Languages",
     "firstLetter": "G",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/go.svg",
     "description": "Statically typed, compiled programming language designed at Google.",
@@ -299,7 +299,7 @@
   {
     "id": "rust",
     "name": "Rust",
-    "category": "Backend",
+    "category": "Backend Languages",
     "firstLetter": "R",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/rust.svg",
     "description": "A language empowering everyone to build reliable and efficient software.",
@@ -308,7 +308,7 @@
   {
     "id": "java",
     "name": "Java",
-    "category": "Backend",
+    "category": "Backend Languages",
     "firstLetter": "J",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/openjdk.svg",
     "description": "Class-based, object-oriented programming language.",
@@ -317,7 +317,7 @@
   {
     "id": "c-sharp",
     "name": "C#",
-    "category": "Backend",
+    "category": "Backend Languages",
     "firstLetter": "C",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/csharp.svg",
     "description": "A modern, object-oriented, and type-safe programming language.",
@@ -326,7 +326,7 @@
   {
     "id": "php",
     "name": "PHP",
-    "category": "Backend",
+    "category": "Backend Languages",
     "firstLetter": "P",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/php.svg",
     "description": "A popular general-purpose scripting language that is especially suited to web development.",
@@ -335,7 +335,7 @@
   {
     "id": "ruby",
     "name": "Ruby",
-    "category": "Backend",
+    "category": "Backend Languages",
     "firstLetter": "R",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/ruby.svg",
     "description": "A dynamic, open source programming language with a focus on simplicity and productivity.",
@@ -344,7 +344,7 @@
   {
     "id": "c-plus-plus",
     "name": "C++",
-    "category": "Backend",
+    "category": "Backend Languages",
     "firstLetter": "C",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/cplusplus.svg",
     "description": "A high-performance programming language used for systems programming, game development, and more.",
@@ -353,7 +353,7 @@
   {
     "id": "fastapi",
     "name": "FastAPI",
-    "category": "Backend",
+    "category": "Backend Frameworks",
     "firstLetter": "F",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/fastapi.svg",
     "description": "Modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.",
@@ -362,7 +362,7 @@
   {
     "id": "django",
     "name": "Django",
-    "category": "Backend",
+    "category": "Backend Frameworks",
     "firstLetter": "D",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/django.svg",
     "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
@@ -371,7 +371,7 @@
   {
     "id": "flask",
     "name": "Flask",
-    "category": "Backend",
+    "category": "Backend Frameworks",
     "firstLetter": "F",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/flask.svg",
     "description": "A lightweight WSGI web application framework in Python.",
@@ -380,7 +380,7 @@
   {
     "id": "express-js",
     "name": "Express.js",
-    "category": "Backend",
+    "category": "Backend Frameworks",
     "firstLetter": "E",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/express.svg",
     "description": "Fast, unopinionated, minimalist web framework for Node.js.",
@@ -389,7 +389,7 @@
   {
     "id": "nest-js",
     "name": "NestJS",
-    "category": "Backend",
+    "category": "Backend Frameworks",
     "firstLetter": "N",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nestjs.svg",
     "description": "A progressive Node.js framework for building efficient, reliable and scalable server-side applications.",
@@ -398,7 +398,7 @@
   {
     "id": "fastify",
     "name": "Fastify",
-    "category": "Backend",
+    "category": "Backend Frameworks",
     "firstLetter": "F",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/fastify.svg",
     "description": "Fast and low overhead web framework, for Node.js.",
@@ -407,7 +407,7 @@
   {
     "id": "hono",
     "name": "Hono",
-    "category": "Backend",
+    "category": "Backend Frameworks",
     "firstLetter": "H",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/hono.svg",
     "description": "Ultrafast web framework for the Edges.",
@@ -416,7 +416,7 @@
   {
     "id": "gin",
     "name": "Gin",
-    "category": "Backend",
+    "category": "Backend Frameworks",
     "firstLetter": "G",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gin.svg",
     "description": "A HTTP web framework written in Go.",
@@ -425,7 +425,7 @@
   {
     "id": "fiber",
     "name": "Fiber",
-    "category": "Backend",
+    "category": "Backend Frameworks",
     "firstLetter": "F",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gofiber.svg",
     "description": "An Express inspired web framework built on top of Fasthttp.",
@@ -434,7 +434,7 @@
   {
     "id": "echo",
     "name": "Echo",
-    "category": "Backend",
+    "category": "Backend Frameworks",
     "firstLetter": "E",
     "iconUrl": "https://www.vectorlogo.zone/logos/echo/echo-icon.svg",
     "description": "High performance, extensible, minimalist Go web framework.",
@@ -443,7 +443,7 @@
   {
     "id": "asp-net-core",
     "name": "ASP.NET Core",
-    "category": "Backend",
+    "category": "Backend Frameworks",
     "firstLetter": "A",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dotnet.svg",
     "description": "Cross-platform, high-performance, open-source framework for building modern, cloud-enabled, Internet-connected apps.",
@@ -452,7 +452,7 @@
   {
     "id": "spring-boot",
     "name": "Spring Boot",
-    "category": "Backend",
+    "category": "Backend Frameworks",
     "firstLetter": "S",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/springboot.svg",
     "description": "Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications.",
@@ -461,7 +461,7 @@
   {
     "id": "quarkus",
     "name": "Quarkus",
-    "category": "Backend",
+    "category": "Backend Frameworks",
     "firstLetter": "Q",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/quarkus.svg",
     "description": "A Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM.",
@@ -470,7 +470,7 @@
   {
     "id": "laravel",
     "name": "Laravel",
-    "category": "Backend",
+    "category": "Backend Frameworks",
     "firstLetter": "L",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/laravel.svg",
     "description": "A PHP framework for web artisans.",
@@ -479,7 +479,7 @@
   {
     "id": "symfony",
     "name": "Symfony",
-    "category": "Backend",
+    "category": "Backend Frameworks",
     "firstLetter": "S",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/symfony.svg",
     "description": "A set of reusable PHP components and a PHP framework for web projects.",
@@ -488,7 +488,7 @@
   {
     "id": "ruby-on-rails",
     "name": "Ruby on Rails",
-    "category": "Backend",
+    "category": "Backend Frameworks",
     "firstLetter": "R",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/rubyonrails.svg",
     "description": "A full-stack web framework optimized for programmer happiness and sustainable productivity.",
@@ -497,7 +497,7 @@
   {
     "id": "celery",
     "name": "Celery",
-    "category": "Backend",
+    "category": "Task Queues",
     "firstLetter": "C",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/celery.svg",
     "description": "Distributed Task Queue.",
@@ -506,7 +506,7 @@
   {
     "id": "bullmq",
     "name": "BullMQ",
-    "category": "Backend",
+    "category": "Task Queues",
     "firstLetter": "B",
     "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=BullMQ&backgroundColor=d9480f",
     "description": "The most advanced, fastest and most reliable message queue for Node.js.",
@@ -515,7 +515,7 @@
   {
     "id": "sidekiq",
     "name": "Sidekiq",
-    "category": "Backend",
+    "category": "Task Queues",
     "firstLetter": "S",
     "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Sidekiq&backgroundColor=d9480f",
     "description": "Simple, efficient background processing for Ruby.",
@@ -524,7 +524,7 @@
   {
     "id": "postgresql",
     "name": "PostgreSQL",
-    "category": "Database",
+    "category": "Relational DB",
     "firstLetter": "P",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/postgresql.svg",
     "description": "A powerful, open source object-relational database system.",
@@ -533,7 +533,7 @@
   {
     "id": "mysql",
     "name": "MySQL",
-    "category": "Database",
+    "category": "Relational DB",
     "firstLetter": "M",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mysql.svg",
     "description": "World's most popular open source database.",
@@ -542,7 +542,7 @@
   {
     "id": "sqlite",
     "name": "SQLite",
-    "category": "Database",
+    "category": "Relational DB",
     "firstLetter": "S",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/sqlite.svg",
     "description": "C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.",
@@ -551,7 +551,7 @@
   {
     "id": "microsoft-sql-server",
     "name": "Microsoft SQL Server",
-    "category": "Database",
+    "category": "Relational DB",
     "firstLetter": "M",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftsqlserver.svg",
     "description": "A relational database management system developed by Microsoft.",
@@ -560,7 +560,7 @@
   {
     "id": "oracle",
     "name": "Oracle",
-    "category": "Database",
+    "category": "Relational DB",
     "firstLetter": "O",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/oracle.svg",
     "description": "A multi-model database management system produced and marketed by Oracle Corporation.",
@@ -569,7 +569,7 @@
   {
     "id": "mongodb",
     "name": "MongoDB",
-    "category": "Database",
+    "category": "NoSQL DB",
     "firstLetter": "M",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mongodb.svg",
     "description": "The database for modern applications.",
@@ -578,7 +578,7 @@
   {
     "id": "redis",
     "name": "Redis",
-    "category": "Database",
+    "category": "NoSQL DB",
     "firstLetter": "R",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/redis.svg",
     "description": "The open source, in-memory data store used by millions of developers as a database, cache, streaming engine, and message broker.",
@@ -587,7 +587,7 @@
   {
     "id": "couchdb",
     "name": "CouchDB",
-    "category": "Database",
+    "category": "NoSQL DB",
     "firstLetter": "C",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/apachecouchdb.svg",
     "description": "Seamless multi-master sync, that scales from Big Data to Mobile, with an Intuitive HTTP/JSON API and designed for Reliability.",
@@ -596,7 +596,7 @@
   {
     "id": "dynamodb",
     "name": "DynamoDB",
-    "category": "Database",
+    "category": "NoSQL DB",
     "firstLetter": "D",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazondynamodb.svg",
     "description": "Fast, flexible NoSQL database service for single-digit millisecond performance at any scale.",
@@ -605,7 +605,7 @@
   {
     "id": "influxdb",
     "name": "InfluxDB",
-    "category": "Database",
+    "category": "Time-Series DB",
     "firstLetter": "I",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/influxdb.svg",
     "description": "The leading time series database.",
@@ -614,7 +614,7 @@
   {
     "id": "timescaledb",
     "name": "TimescaleDB",
-    "category": "Database",
+    "category": "Time-Series DB",
     "firstLetter": "T",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/timescaledb.svg",
     "description": "Open-source time-series database optimized for fast ingest and complex queries, based on PostgreSQL.",
@@ -623,7 +623,7 @@
   {
     "id": "neo4j",
     "name": "Neo4j",
-    "category": "Database",
+    "category": "Graph DB",
     "firstLetter": "N",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/neo4j.svg",
     "description": "The world's leading graph database.",
@@ -632,7 +632,7 @@
   {
     "id": "arangodb",
     "name": "ArangoDB",
-    "category": "Database",
+    "category": "Graph DB",
     "firstLetter": "A",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/arangodb.svg",
     "description": "The native multi-model database.",
@@ -641,7 +641,7 @@
   {
     "id": "pinecone",
     "name": "Pinecone",
-    "category": "Database",
+    "category": "Vector DB",
     "firstLetter": "P",
     "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Pinecone&backgroundColor=d9480f",
     "description": "The vector database for binary vector search at any scale.",
@@ -650,7 +650,7 @@
   {
     "id": "milvus",
     "name": "Milvus",
-    "category": "Database",
+    "category": "Vector DB",
     "firstLetter": "M",
     "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Milvus&backgroundColor=d9480f",
     "description": "Vector database built for scalable similarity search.",
@@ -659,7 +659,7 @@
   {
     "id": "qdrant",
     "name": "Qdrant",
-    "category": "Database",
+    "category": "Vector DB",
     "firstLetter": "Q",
     "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Qdrant&backgroundColor=d9480f",
     "description": "Vector Similarity Search Engine with extended filtering support.",
@@ -668,7 +668,7 @@
   {
     "id": "weaviate",
     "name": "Weaviate",
-    "category": "Database",
+    "category": "Vector DB",
     "firstLetter": "W",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/weaviate.svg",
     "description": "An open source vector database that allows you to store data objects and vector embeddings from your favorite ML-models.",
@@ -677,7 +677,7 @@
   {
     "id": "aws-s3",
     "name": "AWS S3",
-    "category": "Database",
+    "category": "Object Storage",
     "firstLetter": "A",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazons3.svg",
     "description": "Object storage built to retrieve any amount of data from anywhere.",
@@ -686,7 +686,7 @@
   {
     "id": "minio",
     "name": "MinIO",
-    "category": "Database",
+    "category": "Object Storage",
     "firstLetter": "M",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/minio.svg",
     "description": "High Performance Object Storage for AI.",
@@ -695,7 +695,7 @@
   {
     "id": "google-cloud-storage",
     "name": "Google Cloud Storage",
-    "category": "Database",
+    "category": "Object Storage",
     "firstLetter": "G",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/googlecloud.svg",
     "description": "Scalable, resilient, and high-performance object storage for your applications.",
@@ -704,7 +704,7 @@
   {
     "id": "azure-blob-storage",
     "name": "Azure Blob Storage",
-    "category": "Database",
+    "category": "Object Storage",
     "firstLetter": "A",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/azurefunctions.svg",
     "description": "Massively scalable and secure object storage for cloud-native workloads, archives, data lakes, high-performance computing, and machine learning.",
@@ -713,7 +713,7 @@
   {
     "id": "elasticsearch",
     "name": "Elasticsearch",
-    "category": "Database",
+    "category": "Search Engines",
     "firstLetter": "E",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/elasticsearch.svg",
     "description": "A distributed, RESTful search and analytics engine.",
@@ -722,7 +722,7 @@
   {
     "id": "opensearch",
     "name": "OpenSearch",
-    "category": "Database",
+    "category": "Search Engines",
     "firstLetter": "O",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/opensearch.svg",
     "description": "Open source search, analytics, and visualization suite.",
@@ -731,7 +731,7 @@
   {
     "id": "meilisearch",
     "name": "Meilisearch",
-    "category": "Database",
+    "category": "Search Engines",
     "firstLetter": "M",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/meilisearch.svg",
     "description": "A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow.",
@@ -740,7 +740,7 @@
   {
     "id": "rest",
     "name": "REST",
-    "category": "API & Integration",
+    "category": "API Architectures",
     "firstLetter": "R",
     "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=REST&backgroundColor=d9480f",
     "description": "Representational State Transfer (REST) is an architectural style for providing standards between computer systems on the web.",
@@ -749,7 +749,7 @@
   {
     "id": "graphql",
     "name": "GraphQL",
-    "category": "API & Integration",
+    "category": "API Architectures",
     "firstLetter": "G",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/graphql.svg",
     "description": "A query language for APIs and a runtime for fulfilling those queries with your existing data.",
@@ -758,7 +758,7 @@
   {
     "id": "grpc",
     "name": "gRPC",
-    "category": "API & Integration",
+    "category": "API Architectures",
     "firstLetter": "G",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/grpc.svg",
     "description": "A high-performance, open source universal RPC framework.",
@@ -767,7 +767,7 @@
   {
     "id": "websockets",
     "name": "WebSockets",
-    "category": "API & Integration",
+    "category": "API Architectures",
     "firstLetter": "W",
     "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=WS&backgroundColor=d9480f",
     "description": "A computer communications protocol, providing full-duplex communication channels over a single TCP connection.",
@@ -776,7 +776,7 @@
   {
     "id": "webhooks",
     "name": "Webhooks",
-    "category": "API & Integration",
+    "category": "API Architectures",
     "firstLetter": "W",
     "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=WH&backgroundColor=d9480f",
     "description": "Custom HTTP callbacks that are triggered by some event.",
@@ -785,7 +785,7 @@
   {
     "id": "kong",
     "name": "Kong",
-    "category": "API & Integration",
+    "category": "API Gateways",
     "firstLetter": "K",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/kong.svg",
     "description": "The World's Most Popular API Gateway.",
@@ -794,7 +794,7 @@
   {
     "id": "traefik",
     "name": "Traefik",
-    "category": "API & Integration",
+    "category": "API Gateways",
     "firstLetter": "T",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/traefik.svg",
     "description": "The Cloud Native Application Proxy.",
@@ -803,7 +803,7 @@
   {
     "id": "aws-api-gateway",
     "name": "AWS API Gateway",
-    "category": "API & Integration",
+    "category": "API Gateways",
     "firstLetter": "A",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazonapigateway.svg",
     "description": "Fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.",
@@ -812,7 +812,7 @@
   {
     "id": "apigee",
     "name": "Apigee",
-    "category": "API & Integration",
+    "category": "API Gateways",
     "firstLetter": "A",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/googlecloud.svg",
     "description": "Full lifecycle API management platform from Google Cloud.",
@@ -821,7 +821,7 @@
   {
     "id": "apache-kafka",
     "name": "Apache Kafka",
-    "category": "API & Integration",
+    "category": "Message Brokers",
     "firstLetter": "A",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/apachekafka.svg",
     "description": "Distributed event store and stream-processing platform.",
@@ -830,7 +830,7 @@
   {
     "id": "rabbitmq",
     "name": "RabbitMQ",
-    "category": "API & Integration",
+    "category": "Message Brokers",
     "firstLetter": "R",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/rabbitmq.svg",
     "description": "The most widely deployed open source message broker.",
@@ -839,7 +839,7 @@
   {
     "id": "nats",
     "name": "NATS",
-    "category": "API & Integration",
+    "category": "Message Brokers",
     "firstLetter": "N",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nats.svg",
     "description": "Connective technology for adaptive edge and cloud-native applications.",
@@ -848,7 +848,7 @@
   {
     "id": "aws-sqs-sns",
     "name": "AWS SQS/SNS",
-    "category": "API & Integration",
+    "category": "Message Brokers",
     "firstLetter": "A",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazonsqs.svg",
     "description": "Fully managed message queuing and pub/sub messaging services.",
@@ -857,7 +857,7 @@
   {
     "id": "trpc",
     "name": "tRPC",
-    "category": "API & Integration",
+    "category": "API Architectures",
     "firstLetter": "T",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/trpc.svg",
     "description": "Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
@@ -866,7 +866,7 @@
   {
     "id": "linux",
     "name": "Linux",
-    "category": "DevOps",
+    "category": "Operating Systems",
     "firstLetter": "L",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linux.svg",
     "description": "An open-source Unix-like operating system based on the Linux kernel.",
@@ -875,7 +875,7 @@
   {
     "id": "ubuntu",
     "name": "Ubuntu",
-    "category": "DevOps",
+    "category": "Operating Systems",
     "firstLetter": "U",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/ubuntu.svg",
     "description": "Open source desktop operating system based on Debian.",
@@ -884,7 +884,7 @@
   {
     "id": "debian",
     "name": "Debian",
-    "category": "DevOps",
+    "category": "Operating Systems",
     "firstLetter": "D",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/debian.svg",
     "description": "A stable and secure Linux-based operating system.",
@@ -893,7 +893,7 @@
   {
     "id": "fedora",
     "name": "Fedora",
-    "category": "DevOps",
+    "category": "Operating Systems",
     "firstLetter": "F",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/fedora.svg",
     "description": "Innovative, free, and open source platform for hardware, clouds, and containers.",
@@ -902,7 +902,7 @@
   {
     "id": "rocky-linux",
     "name": "Rocky Linux",
-    "category": "DevOps",
+    "category": "Operating Systems",
     "firstLetter": "R",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/rockylinux.svg",
     "description": "A community-driven enterprise operating system designed to be 100% bug-for-bug compatible with RHEL.",
@@ -911,7 +911,7 @@
   {
     "id": "windows-server",
     "name": "Windows Server",
-    "category": "DevOps",
+    "category": "Operating Systems",
     "firstLetter": "W",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/windows.svg",
     "description": "The operating system that bridges on-premises environments with Azure.",
@@ -920,7 +920,7 @@
   {
     "id": "docker",
     "name": "Docker",
-    "category": "DevOps",
+    "category": "Containerization",
     "firstLetter": "D",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/docker.svg",
     "description": "Deliver software in packages called containers.",
@@ -929,7 +929,7 @@
   {
     "id": "kubernetes",
     "name": "Kubernetes",
-    "category": "DevOps",
+    "category": "Containerization",
     "firstLetter": "K",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/kubernetes.svg",
     "description": "Production-grade container orchestration.",
@@ -938,7 +938,7 @@
   {
     "id": "docker-swarm",
     "name": "Docker Swarm",
-    "category": "DevOps",
+    "category": "Containerization",
     "firstLetter": "D",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/docker.svg",
     "description": "Native clustering for Docker.",
@@ -947,7 +947,7 @@
   {
     "id": "nomad",
     "name": "Nomad",
-    "category": "DevOps",
+    "category": "Containerization",
     "firstLetter": "N",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nomad.svg",
     "description": "A flexible scheduler and workload orchestrator.",
@@ -956,7 +956,7 @@
   {
     "id": "proxmox-ve",
     "name": "Proxmox VE",
-    "category": "DevOps",
+    "category": "Virtualization",
     "firstLetter": "P",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/proxmox.svg",
     "description": "Complete open-source platform for enterprise virtualization.",
@@ -965,7 +965,7 @@
   {
     "id": "xcp-ng",
     "name": "XCP-ng",
-    "category": "DevOps",
+    "category": "Virtualization",
     "firstLetter": "X",
     "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=XCP-ng&backgroundColor=d9480f",
     "description": "The turnkey Open Source hypervisor.",
@@ -974,7 +974,7 @@
   {
     "id": "vmware-esxi",
     "name": "VMware ESXi",
-    "category": "DevOps",
+    "category": "Virtualization",
     "firstLetter": "V",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vmware.svg",
     "description": "Purpose-built bare-metal hypervisor.",
@@ -983,7 +983,7 @@
   {
     "id": "terraform",
     "name": "Terraform",
-    "category": "DevOps",
+    "category": "IaC",
     "firstLetter": "T",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/terraform.svg",
     "description": "Infrastructure as Code to deliver and manage any infrastructure.",
@@ -992,7 +992,7 @@
   {
     "id": "ansible",
     "name": "Ansible",
-    "category": "DevOps",
+    "category": "IaC",
     "firstLetter": "A",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/ansible.svg",
     "description": "Automation that everyone can use.",
@@ -1001,7 +1001,7 @@
   {
     "id": "pulumi",
     "name": "Pulumi",
-    "category": "DevOps",
+    "category": "IaC",
     "firstLetter": "P",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/pulumi.svg",
     "description": "Universal Infrastructure as Code.",
@@ -1010,7 +1010,7 @@
   {
     "id": "opentofu",
     "name": "OpenTofu",
-    "category": "DevOps",
+    "category": "IaC",
     "firstLetter": "O",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/opentofu.svg",
     "description": "A community-driven, open-source fork of Terraform.",
@@ -1019,7 +1019,7 @@
   {
     "id": "github-actions",
     "name": "GitHub Actions",
-    "category": "DevOps",
+    "category": "CI/CD",
     "firstLetter": "G",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/githubactions.svg",
     "description": "Automate, customize, and execute your software development workflows right in your repository.",
@@ -1028,7 +1028,7 @@
   {
     "id": "gitlab-ci-cd",
     "name": "GitLab CI/CD",
-    "category": "DevOps",
+    "category": "CI/CD",
     "firstLetter": "G",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gitlab.svg",
     "description": "Build, test, and deploy with GitLab's integrated CI/CD tool.",
@@ -1037,7 +1037,7 @@
   {
     "id": "jenkins",
     "name": "Jenkins",
-    "category": "DevOps",
+    "category": "CI/CD",
     "firstLetter": "J",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/jenkins.svg",
     "description": "The leading open source automation server.",
@@ -1046,7 +1046,7 @@
   {
     "id": "argocd",
     "name": "ArgoCD",
-    "category": "DevOps",
+    "category": "CI/CD",
     "firstLetter": "A",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/argo.svg",
     "description": "Declarative GitOps CD for Kubernetes.",
@@ -1055,7 +1055,7 @@
   {
     "id": "aws",
     "name": "AWS",
-    "category": "DevOps",
+    "category": "Cloud Providers",
     "firstLetter": "A",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazonwebservices.svg",
     "description": "Amazon Web Services (AWS) is the world's most comprehensive and broadly adopted cloud platform.",
@@ -1064,7 +1064,7 @@
   {
     "id": "google-cloud-platform",
     "name": "Google Cloud Platform",
-    "category": "DevOps",
+    "category": "Cloud Providers",
     "firstLetter": "G",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/googlecloud.svg",
     "description": "Suite of cloud computing services that runs on the same infrastructure that Google uses internally.",
@@ -1073,7 +1073,7 @@
   {
     "id": "microsoft-azure",
     "name": "Microsoft Azure",
-    "category": "DevOps",
+    "category": "Cloud Providers",
     "firstLetter": "M",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftazure.svg",
     "description": "Azure is a cloud computing platform and infrastructure created by Microsoft.",
@@ -1082,7 +1082,7 @@
   {
     "id": "vercel",
     "name": "Vercel",
-    "category": "DevOps",
+    "category": "PaaS / Serverless",
     "firstLetter": "V",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vercel.svg",
     "description": "The platform for frontend developers, providing the speed and reliability innovators need.",
@@ -1091,7 +1091,7 @@
   {
     "id": "netlify",
     "name": "Netlify",
-    "category": "DevOps",
+    "category": "PaaS / Serverless",
     "firstLetter": "N",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/netlify.svg",
     "description": "A cloud computing company that offers a development platform that includes build, deploy, and serverless backend services.",
@@ -1100,7 +1100,7 @@
   {
     "id": "render",
     "name": "Render",
-    "category": "DevOps",
+    "category": "PaaS / Serverless",
     "firstLetter": "R",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/render.svg",
     "description": "Cloud platform to host all your apps and websites, from simple static sites to complex applications with databases.",
@@ -1109,7 +1109,7 @@
   {
     "id": "fly-io",
     "name": "Fly.io",
-    "category": "DevOps",
+    "category": "PaaS / Serverless",
     "firstLetter": "F",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/flydotio.svg",
     "description": "Deploy app servers close to your users.",
@@ -1118,7 +1118,7 @@
   {
     "id": "aws-lambda",
     "name": "AWS Lambda",
-    "category": "DevOps",
+    "category": "PaaS / Serverless",
     "firstLetter": "A",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/awslambda.svg",
     "description": "Serverless compute service that runs your code in response to events and automatically manages the underlying compute resources.",
@@ -1127,7 +1127,7 @@
   {
     "id": "cloudflare-workers",
     "name": "Cloudflare Workers",
-    "category": "DevOps",
+    "category": "PaaS / Serverless",
     "firstLetter": "C",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/cloudflareworkers.svg",
     "description": "Deploy serverless code instantly across the globe to give it exceptional performance, reliability, and scale.",
@@ -1136,7 +1136,7 @@
   {
     "id": "prometheus",
     "name": "Prometheus",
-    "category": "Monitoring",
+    "category": "Metrics",
     "firstLetter": "P",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/prometheus.svg",
     "description": "Open-source systems monitoring and alerting toolkit.",
@@ -1145,7 +1145,7 @@
   {
     "id": "grafana",
     "name": "Grafana",
-    "category": "Monitoring",
+    "category": "Metrics",
     "firstLetter": "G",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/grafana.svg",
     "description": "The open observability platform.",
@@ -1154,7 +1154,7 @@
   {
     "id": "datadog",
     "name": "Datadog",
-    "category": "Monitoring",
+    "category": "Metrics",
     "firstLetter": "D",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/datadog.svg",
     "description": "Monitoring service for cloud-scale applications.",
@@ -1163,7 +1163,7 @@
   {
     "id": "elk-stack",
     "name": "ELK Stack",
-    "category": "Monitoring",
+    "category": "Logging",
     "firstLetter": "E",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/elasticstack.svg",
     "description": "Elasticsearch, Logstash, and Kibana.",
@@ -1172,7 +1172,7 @@
   {
     "id": "grafana-loki",
     "name": "Grafana Loki",
-    "category": "Monitoring",
+    "category": "Logging",
     "firstLetter": "G",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/grafana.svg",
     "description": "Like Prometheus, but for logs.",
@@ -1181,7 +1181,7 @@
   {
     "id": "seq",
     "name": "Seq",
-    "category": "Monitoring",
+    "category": "Logging",
     "firstLetter": "S",
     "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Seq&backgroundColor=d9480f",
     "description": "The intelligent search and analysis server for structured log data.",
@@ -1190,7 +1190,7 @@
   {
     "id": "sentry",
     "name": "Sentry",
-    "category": "Monitoring",
+    "category": "Error Tracking",
     "firstLetter": "S",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/sentry.svg",
     "description": "Application monitoring and error tracking software.",
@@ -1199,7 +1199,7 @@
   {
     "id": "honeycomb",
     "name": "Honeycomb",
-    "category": "Monitoring",
+    "category": "Error Tracking",
     "firstLetter": "H",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/honeycomb.svg",
     "description": "Observability for high-cardinality data.",
@@ -1208,7 +1208,7 @@
   {
     "id": "new-relic",
     "name": "New Relic",
-    "category": "Monitoring",
+    "category": "Error Tracking",
     "firstLetter": "N",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/newrelic.svg",
     "description": "Cloud-based observability platform.",
@@ -1217,7 +1217,7 @@
   {
     "id": "auth0",
     "name": "Auth0",
-    "category": "Security",
+    "category": "Auth",
     "firstLetter": "A",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/auth0.svg",
     "description": "Identity platform for application builders.",
@@ -1226,7 +1226,7 @@
   {
     "id": "keycloak",
     "name": "Keycloak",
-    "category": "Security",
+    "category": "Auth",
     "firstLetter": "K",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/keycloak.svg",
     "description": "Open source identity and access management for modern applications and services.",
@@ -1235,7 +1235,7 @@
   {
     "id": "firebase-auth",
     "name": "Firebase Auth",
-    "category": "Security",
+    "category": "Auth",
     "firstLetter": "F",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/firebase.svg",
     "description": "Authentication for your app using Firebase.",
@@ -1244,7 +1244,7 @@
   {
     "id": "clerk",
     "name": "Clerk",
-    "category": "Security",
+    "category": "Auth",
     "firstLetter": "C",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/clerk.svg",
     "description": "Complete user management and authentication.",
@@ -1253,7 +1253,7 @@
   {
     "id": "kinde",
     "name": "Kinde",
-    "category": "Security",
+    "category": "Auth",
     "firstLetter": "K",
     "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Kinde&backgroundColor=d9480f",
     "description": "Infrastructure for modern SaaS builders.",
@@ -1262,7 +1262,7 @@
   {
     "id": "nextauth-js",
     "name": "NextAuth.js",
-    "category": "Security",
+    "category": "Auth",
     "firstLetter": "N",
     "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=NextAuth&backgroundColor=d9480f",
     "description": "Authentication for Next.js.",
@@ -1271,7 +1271,7 @@
   {
     "id": "hashicorp-vault",
     "name": "HashiCorp Vault",
-    "category": "Security",
+    "category": "Secrets",
     "firstLetter": "H",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vault.svg",
     "description": "Manage secrets and protect sensitive data.",
@@ -1280,7 +1280,7 @@
   {
     "id": "aws-secrets-manager",
     "name": "AWS Secrets Manager",
-    "category": "Security",
+    "category": "Secrets",
     "firstLetter": "A",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazonwebservices.svg",
     "description": "Rotate, manage, and retrieve secrets, such as database credentials and API keys throughout their lifecycle.",
@@ -1289,7 +1289,7 @@
   {
     "id": "doppler",
     "name": "Doppler",
-    "category": "Security",
+    "category": "Secrets",
     "firstLetter": "D",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/doppler.svg",
     "description": "The multi-platform secret ops platform.",
@@ -1298,7 +1298,7 @@
   {
     "id": "okta",
     "name": "Okta",
-    "category": "Security",
+    "category": "Auth",
     "firstLetter": "O",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/okta.svg",
     "description": "The World’s Identity Company, providing secure identity management and single sign-on.",
@@ -1307,7 +1307,7 @@
   {
     "id": "pytorch",
     "name": "PyTorch",
-    "category": "AI & ML",
+    "category": "ML Frameworks",
     "firstLetter": "P",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/pytorch.svg",
     "description": "An open source machine learning framework that accelerates the path from research prototyping to production deployment.",
@@ -1316,7 +1316,7 @@
   {
     "id": "tensorflow",
     "name": "TensorFlow",
-    "category": "AI & ML",
+    "category": "ML Frameworks",
     "firstLetter": "T",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tensorflow.svg",
     "description": "An end-to-end open source platform for machine learning.",
@@ -1325,7 +1325,7 @@
   {
     "id": "scikit-learn",
     "name": "Scikit-learn",
-    "category": "AI & ML",
+    "category": "ML Frameworks",
     "firstLetter": "S",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/scikitlearn.svg",
     "description": "Simple and efficient tools for predictive data analysis.",
@@ -1334,7 +1334,7 @@
   {
     "id": "langchain",
     "name": "LangChain",
-    "category": "AI & ML",
+    "category": "LLM Orchestration",
     "firstLetter": "L",
     "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=LangChain&backgroundColor=d9480f",
     "description": "Framework for developing applications powered by language models.",
@@ -1343,7 +1343,7 @@
   {
     "id": "llamaindex",
     "name": "LlamaIndex",
-    "category": "AI & ML",
+    "category": "LLM Orchestration",
     "firstLetter": "L",
     "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=LlamaIndex&backgroundColor=d9480f",
     "description": "Data framework for LLM applications.",
@@ -1352,7 +1352,7 @@
   {
     "id": "openai-api",
     "name": "OpenAI API",
-    "category": "AI & ML",
+    "category": "Model Providers",
     "firstLetter": "O",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/openai.svg",
     "description": "Access to OpenAI's powerful models like GPT-4 and DALL-E.",
@@ -1361,7 +1361,7 @@
   {
     "id": "hugging-face",
     "name": "Hugging Face",
-    "category": "AI & ML",
+    "category": "Model Providers",
     "firstLetter": "H",
     "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/huggingface.svg",
     "description": "The AI community building the future.",
@@ -1370,7 +1370,7 @@
   {
     "id": "ollama",
     "name": "Ollama",
-    "category": "AI & ML",
+    "category": "Model Providers",
     "firstLetter": "O",
     "iconUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Ollama&backgroundColor=d9480f",
     "description": "Get up and running with large language models locally.",

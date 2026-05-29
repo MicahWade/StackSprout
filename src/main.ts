@@ -2,14 +2,25 @@ import './style.css'
 import TECHNOLOGIES_DATA from './technologies.json';
 
 type Category = 
-  | 'Frontend' 
-  | 'Backend' 
-  | 'Database' 
-  | 'API & Integration' 
-  | 'DevOps' 
-  | 'Monitoring' 
-  | 'Security' 
-  | 'AI & ML';
+  | 'Core Languages' | 'Frontend Frameworks' | 'Meta-Frameworks' | 'Styling' | 'Mobile Frameworks' | 'Desktop Frameworks'
+  | 'Backend Languages' | 'Backend Frameworks' | 'Task Queues'
+  | 'Relational DB' | 'NoSQL DB' | 'Time-Series DB' | 'Graph DB' | 'Vector DB' | 'Object Storage' | 'Search Engines'
+  | 'API Architectures' | 'API Gateways' | 'Message Brokers'
+  | 'Operating Systems' | 'Containerization' | 'Virtualization' | 'IaC' | 'CI/CD' | 'Cloud Providers' | 'PaaS / Serverless'
+  | 'Metrics' | 'Logging' | 'Error Tracking'
+  | 'Auth' | 'Secrets'
+  | 'ML Frameworks' | 'LLM Orchestration' | 'Model Providers';
+
+const LAYER_GROUPS: Record<string, Category[]> = {
+  'Frontend Layer': ['Core Languages', 'Frontend Frameworks', 'Meta-Frameworks', 'Styling', 'Mobile Frameworks', 'Desktop Frameworks'],
+  'Backend Layer': ['Backend Languages', 'Backend Frameworks', 'Task Queues'],
+  'Database Layer': ['Relational DB', 'NoSQL DB', 'Time-Series DB', 'Graph DB', 'Vector DB', 'Object Storage', 'Search Engines'],
+  'API Layer': ['API Architectures', 'API Gateways', 'Message Brokers'],
+  'DevOps Layer': ['Operating Systems', 'Containerization', 'Virtualization', 'IaC', 'CI/CD', 'Cloud Providers', 'PaaS / Serverless'],
+  'Monitoring Layer': ['Metrics', 'Logging', 'Error Tracking'],
+  'Security Layer': ['Auth', 'Secrets'],
+  'AI & ML Layer': ['ML Frameworks', 'LLM Orchestration', 'Model Providers']
+};
 
 interface Technology {
   id: string;
@@ -22,12 +33,12 @@ interface Technology {
   isLocked?: boolean;
 }
 
-const TECHNOLOGIES: Technology[] = TECHNOLOGIES_DATA as Technology[];
+const TECHNOLOGIES: Technology[] = TECHNOLOGIES_DATA as any;
 
 type AppMode = 'Standard' | 'Acronym';
 let currentMode: AppMode = 'Standard';
 let isUsableMode = true;
-let activeCategories: Category[] = ['Frontend', 'Backend', 'Database', 'API & Integration', 'DevOps', 'Monitoring', 'Security', 'AI & ML'];
+let activeCategories: Category[] = Object.values(LAYER_GROUPS).flat();
 let generatedStack: Technology[] = [];
 let acronymInput = '';
 let shouldAnimate = false;
@@ -51,9 +62,8 @@ function render() {
             </div>
             <div class="flex flex-col flex-1 min-h-0 space-y-6">
               <div class="shrink-0">
-                <h3 class="text-[10px] font-black uppercase tracking-widest text-slate-500 mb-4">Synergy Logic</h3>
                 <div class="flex items-center justify-between p-4 bg-slate-950 rounded-2xl border border-slate-800">
-                  <span class="text-xs font-medium text-slate-400">Cohesion Mode</span>
+                  <span class="text-xs font-medium text-slate-400 uppercase tracking-widest">Cohesion Mode</span>
                   <button id="toggle-usable" class="relative inline-flex h-5 w-10 items-center rounded-full transition-colors ${isUsableMode ? 'bg-brand-orange' : 'bg-slate-700'}">
                     <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform ${isUsableMode ? 'translate-x-6' : 'translate-x-1'}"></span>
                   </button>
@@ -82,26 +92,29 @@ function render() {
 }
 
 function renderStandardControls() {
-  const cats: Category[] = ['Frontend', 'Backend', 'Database', 'API & Integration', 'DevOps', 'Monitoring', 'Security', 'AI & ML'];
   return `
-    <div class="flex flex-col h-full">
-      <h3 class="text-[10px] font-black uppercase tracking-widest text-slate-500 mb-3 shrink-0">Categories</h3>
-      <div class="grid grid-cols-1 gap-1.5 overflow-y-auto custom-scrollbar flex-1 pr-2">
-        ${cats.map(cat => {
-          const isActive = activeCategories.includes(cat);
-          return `
-            <label class="flex items-center justify-between px-4 py-2.5 rounded-xl border border-slate-800 bg-slate-950/50 cursor-pointer hover:border-brand-orange/30 transition-all group">
-              <span class="text-xl font-bold text-slate-400 group-hover:text-slate-200">${cat}</span>
-              <div class="relative inline-flex items-center cursor-pointer">
-                <input type="checkbox" value="${cat}" class="cat-checkbox sr-only" ${isActive ? 'checked' : ''}>
-                <div class="w-12 h-6 bg-slate-800 rounded-full transition-colors group-hover:bg-slate-700 ${isActive ? '!bg-brand-orange' : ''}">
-                  <div class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform ${isActive ? 'translate-x-6' : ''}"></div>
-                </div>
-              </div>
-            </label>
-          `;
-        }).join('')}
-      </div>
+    <div class="flex flex-col h-full overflow-y-auto custom-scrollbar pr-2 space-y-6">
+      ${Object.entries(LAYER_GROUPS).map(([layer, subCats]) => `
+        <div class="space-y-2">
+          <h3 class="text-[10px] font-black uppercase tracking-widest text-brand-orange ml-1">${layer}</h3>
+          <div class="grid grid-cols-1 gap-1.5">
+            ${subCats.map(cat => {
+              const isActive = activeCategories.includes(cat);
+              return `
+                <label class="flex items-center justify-between px-3 py-1.5 rounded-xl border border-slate-800/50 bg-slate-950/30 cursor-pointer hover:border-brand-orange/30 transition-all group">
+                  <span class="text-xs font-bold text-slate-400 group-hover:text-slate-200">${cat}</span>
+                  <div class="relative inline-flex items-center cursor-pointer">
+                    <input type="checkbox" value="${cat}" class="cat-checkbox sr-only" ${isActive ? 'checked' : ''}>
+                    <div class="w-8 h-4 bg-slate-800 rounded-full transition-colors group-hover:bg-slate-700 ${isActive ? '!bg-brand-orange' : ''}">
+                      <div class="absolute top-0.5 left-0.5 w-3 h-3 bg-white rounded-full transition-transform ${isActive ? 'translate-x-4' : ''}"></div>
+                    </div>
+                  </div>
+                </label>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `).join('')}
     </div>
   `;
 }
@@ -186,6 +199,8 @@ function generateStandardStack() {
   const allowed = TECHNOLOGIES.filter(t => activeCategories.includes(t.category));
   if (allowed.length === 0) { generatedStack = []; return; }
   const next: Technology[] = [];
+  
+  // Pick one for EACH active sub-category to satisfy "what is picked not DevOps"
   activeCategories.forEach((cat) => {
     const locked = generatedStack.find(s => s.isLocked && s.category === cat);
     if (locked) next.push(locked);
@@ -219,7 +234,7 @@ function generateAcronymStack() {
         if (comp.length > 0) matches = comp;
       }
       if (matches.length > 0) next.push({...matches[Math.floor(Math.random() * matches.length)]});
-      else next.push({ id: `fake-${char}-${i}`, name: `${char}${['enon','flow','grid','byte','core','sync'][Math.floor(Math.random()*6)]}`, category: 'Backend', firstLetter: char, iconUrl: `https://api.dicebear.com/7.x/initials/svg?seed=${char}&backgroundColor=d9480f`, description: 'Quantum microservice.', compatibleWith: [] });
+      else next.push({ id: `fake-${char}-${i}`, name: `${char}${['enon','flow','grid','byte','core','sync'][Math.floor(Math.random()*6)]}`, category: 'Backend Languages' as any, firstLetter: char, iconUrl: `https://api.dicebear.com/7.x/initials/svg?seed=${char}&backgroundColor=d9480f`, description: 'Quantum microservice.', compatibleWith: [] });
     }
   });
   generatedStack = next;
