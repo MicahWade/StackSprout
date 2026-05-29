@@ -42,11 +42,15 @@ let activeCategories: Category[] = Object.values(LAYER_GROUPS).flat();
 let generatedStack: Technology[] = [];
 let acronymInput = '';
 let shouldAnimate = false;
+let sidebarScrollTop = 0;
 
 const PALETTE = ['#91a6ff', '#d9480f', '#faff7f', '#ffffff', '#ff5154'];
 const appElement = document.getElementById('app')!;
 
 function render() {
+  const sidebar = document.getElementById('sidebar-controls');
+  if (sidebar) sidebarScrollTop = sidebar.scrollTop;
+
   appElement.innerHTML = `
     <div class="min-h-screen bg-slate-950 text-slate-100 p-4 md:p-8 font-sans selection:bg-brand-orange selection:text-white overflow-hidden">
       <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 h-[90vh]">
@@ -93,7 +97,7 @@ function render() {
 
 function renderStandardControls() {
   return `
-    <div class="flex flex-col h-full overflow-y-auto custom-scrollbar pr-2 space-y-6">
+    <div id="sidebar-controls" class="flex flex-col h-full overflow-y-auto custom-scrollbar pr-2 space-y-6">
       ${Object.entries(LAYER_GROUPS).map(([layer, subCats]) => `
         <div class="space-y-2">
           <h3 class="text-[10px] font-black uppercase tracking-widest text-brand-orange ml-1">${layer}</h3>
@@ -186,6 +190,9 @@ function attachEventListeners() {
   }));
   window.removeEventListener('keydown', handleKeydown);
   window.addEventListener('keydown', handleKeydown);
+
+  const sidebarAfter = document.getElementById('sidebar-controls');
+  if (sidebarAfter) sidebarAfter.scrollTop = sidebarScrollTop;
 }
 
 function sprout() {
